@@ -1,0 +1,86 @@
+creature_mc_golem
+
+[OBJECT:CREATURE]
+
+Note, there is no way to make these buildable by civs yet, and I refuse to cheat by
+making them breedable (maybe DFhack to allow them to be created, but nothing else).
+When Myth&Magic comes, it should be possible to have them properly be a part of the
+villager/illager civs as magical constructs.
+
+[CREATURE:MC_GOLEM_IRON]
+    [DESCRIPTION:A large magically animated statue of a humanoid, made of iron. The knowledge of how to create these golems has been lost to time.]
+	[CREATURE_CLASS:GOLEM]
+    [NAME:iron golem:iron golems:iron golem]
+	[CASTE_NAME:iron golem:iron golems:iron golem]
+	[CREATURE_TILE:'G'][COLOR:7:0:0]
+	[NOPAIN][EXTRAVISION][NOBREATHE][NOSTUN][NONAUSEA][NOEMOTION][NOFEAR]
+		[NOTHOUGHT][NOEXERT][NO_DIZZINESS][NO_FEVERS]
+	[NO_DRINK][NO_EAT][NO_SLEEP]
+    [NO_GENDER]
+	[NOT_LIVING][NOBONES][NOT_BUTCHERABLE]
+    [ODOR_LEVEL:0] no smell
+	[SMELL_TRIGGER:10000] cannot smell
+    [ALL_ACTIVE]
+    [CANOPENDOORS]
+    gave them a biome so you occasionally get a wild golem
+	[BIOME:ANY_LAND][FREQUENCY:5]
+    [LARGE_ROAMING][DIFFICULTY:2]
+	[EQUIPS][TRAINABLE]
+	[PREFSTRING:stature]
+    [PREFSTRING:strength]
+	[BODY:HUMANOID_NECK:2EYES:2EARS:NOSE:HUMANOID_JOINTS:5FINGERS:5TOES]
+	[NO_THOUGHT_CENTER_FOR_MOVEMENT]
+	[TISSUE:IRON]
+		[TISSUE_NAME:iron:iron]
+		[TISSUE_MATERIAL:INORGANIC:IRON]
+		[MUSCULAR]
+		[FUNCTIONAL]
+		[STRUCTURAL]
+		[RELATIVE_THICKNESS:1]
+		[CONNECTS]
+		[TISSUE_SHAPE:LAYER]
+	[TISSUE_LAYER:BY_CATEGORY:ALL:IRON]
+    [BODY_DETAIL_PLAN:STANDARD_HEAD_POSITIONS]
+    [BODY_DETAIL_PLAN:HUMANOID_HEAD_POSITIONS]
+    [BODY_DETAIL_PLAN:HUMANOID_RELSIZES]
+    [RELSIZE:BY_CATEGORY:ARM_UPPER:400]
+    [RELSIZE:BY_CATEGORY:ARM_LOWER:400]
+	[BODY_SIZE:0:0:250000] should be about 2.7 meters high
+	[BODY_APPEARANCE_MODIFIER:HEIGHT:90:95:98:100:102:105:110]
+	[BODY_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
+	[ATTACK:PUNCH:BODYPART:BY_TYPE:GRASP]
+		[ATTACK_SKILL:GRASP_STRIKE]
+		[ATTACK_VERB:punch:punches]
+		[ATTACK_CONTACT_PERC:100]
+		[ATTACK_PREPARE_AND_RECOVER:3:3]
+		[ATTACK_FLAG_WITH]
+		[ATTACK_PRIORITY:MAIN]
+	[ATTACK:KICK:BODYPART:BY_TYPE:STANCE]
+		[ATTACK_SKILL:STANCE_STRIKE]
+		[ATTACK_VERB:kick:kicks]
+		[ATTACK_CONTACT_PERC:100]
+		[ATTACK_PREPARE_AND_RECOVER:4:4]
+		[ATTACK_FLAG_WITH]
+		[ATTACK_PRIORITY:SECOND]
+		[ATTACK_FLAG_BAD_MULTIATTACK]
+	[APPLY_CREATURE_VARIATION:STANDARD_BIPED_GAITS:900:657:438:219:1900:2900] 40 kph
+	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
+	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
+	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
+	[SWIMS_LEARNED]
+
+[CREATURE:MC_GOLEM_FURNACE]
+    [DOES_NOT_EXIST] maybe should be a caste of iron golem instead?
+    [DESCRIPTION:A large magically animated statue of a humanoid, made of iron. A furnace is built into its body, but the knowledge of how to operate this furnace is, like the secret to creating more such golems, lost to time.]
+
+[CREATURE:MC_GOLEM_SNOW]
+    [DOES_NOT_EXIST]
+    [DESCRIPTION:A magically animated snowman, wearing over its head a pumpkin which never seems to rot and possesses a face. It leaves behind an endless trail of snow wherever it moves, and can throw snowballs taken from its own body without running out of material. The knowledge of how to create these golems has been lost to time.]
+
+[CREATURE:MC_GOLEM_COPPER]
+    [DOES_NOT_EXIST]
+    [DESCRIPTION:A small, magically animated statue made of copper. A lightning rod is attached to its head. The knowledge of how to create these golems has been lost to time.]
+
+[CREATURE:MC_GOLEM_MELON]
+    [DOES_NOT_EXIST]
+    [DESCRIPTION:A magically animated snowman with a watermelon which never seems to rot and posesses a face, instead of a head. It leaves behind an endless trail of snow wherever it moves, and can throw snowballs taken from its own body without running out of material. The knowledge of how to create these golems has been lost to time.]
