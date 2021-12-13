@@ -1,4 +1,4 @@
-# DwarfCrafted - v0.1.0 [47.05]
+# DwarfCrafted - v0.1.1 [47.05]
 
 _NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG._
 
@@ -135,6 +135,7 @@ Note that the below list is in no particular order, and is subject to change.
 - Blast fungus (MCD)
 - Deathcap Mushrooms (MCD)
 - Chorus Trees (lotus-like flowers and chorus fruit that can be cooked to get purpur to build with)
+- Sculk
 
 ### Interactions/Magic
 - Evoker (and summons!)
