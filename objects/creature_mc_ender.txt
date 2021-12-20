@@ -349,8 +349,11 @@ for dimensions and biomes that are bodies of water.
     [SELECT_MATERIAL:ICHOR]
 		[MELTING_POINT:0]
 
-[CREATURE:MC_SHULKER] TODO after release and I figure out where to put them
-    [DESCRIPTION:A mollusc from another plane of existence, with a large two-part shell it can cover itself with. It spits forth projectiles that cause anything they touch to uncontrollably levitate upwards.]
+[CREATURE:MC_SHULKER]
+	TODO when they actually do so, describe the projectiles like so: "cause anything they touch to uncontrollably levitate upwards"
+	Once again, I'm going to use a weird "it appears to be unwell" excuse for why neither
+	teleportation or homing projectiles (or levitation!) are working.
+    [DESCRIPTION:A mollusc from another plane of existence, with a large two-part shell it can cover itself with. It spits forth projectiles that seem to lighten whatever it strikes, but only slightly. It appears to be unwell, and occasionally vanishes before immediately flickering back into view.]
 	[NAME:shulker:shulkers:shulker]
 	[CASTE_NAME:shulker:shulkers:shulker]
 	[CREATURE_TILE:'s'][COLOR:5:0:1]
@@ -362,7 +365,8 @@ for dimensions and biomes that are bodies of water.
 	[POPULATION_NUMBER:250:500]
 	[PREFSTRING:shells]
     [PREFSTRING:ability to make others levitate]
-	TODO shulker sounds
+	I have no idea how to describe the noises they make
+	[SOUND:PEACEFUL_INTERMITTENT:40:10000:VOCALIZATION:croak coarsely:croaks coarsely:a coarse croaking sound]
 	[BODY:BODY_HEAD:BRAIN:2EYES:SHELL]
     [RELSIZE:BY_CATEGORY:HEAD:300]
     [RELSIZE:BY_CATEGORY:SHELL:1500]
@@ -370,13 +374,7 @@ for dimensions and biomes that are bodies of water.
 		[REMOVE_MATERIAL:HAIR]
 		[REMOVE_MATERIAL:BONE]
 		[USE_MATERIAL_TEMPLATE:SHELL:SHELL_TEMPLATE]
-            TODO shulker shell:
-            - make shell harder
-            - usable for crafts (might already be true; check)
-            - maybe the shell should be able to made into a chest?
-            - make shell dyable
-            - double check defaut color is correct
-			[STATE_COLOR:ALL:PURPLE]
+			[STATE_COLOR:ALL:LILAC]
 	[BODY_DETAIL_PLAN:STANDARD_TISSUES]
 		[REMOVE_TISSUE:HAIR]
 		[REMOVE_TISSUE:BONE]
@@ -393,23 +391,41 @@ for dimensions and biomes that are bodies of water.
 	[USE_MATERIAL_TEMPLATE:PUS:PUS_TEMPLATE]
 	[PUS:LOCAL_CREATURE_MAT:PUS:LIQUID]
 	[BODY_SIZE:0:0:900000]
+	[USE_MATERIAL_TEMPLATE:BULLET_MAT:CREATURE_EXTRACT_TEMPLATE]
+		[STATE_NAME:ALL_SOLID:shulker bullet]
+		[STATE_ADJ:ALL_SOLID:shulker bullet]
+		[STATE_NAME:LIQUID:melted shulker bullet]
+		[STATE_ADJ:LIQUID:melted shulker bullet]
+		[STATE_NAME:GAS:boiling shulker bullet]
+		[STATE_ADJ:GAS:boiling shulker bullet]
+		[MELTING_POINT:10100] solid at normal temps
     [CAN_DO_INTERACTION:MATERIAL_EMISSION]
     TODO when DF allows, make projectile home in and apply levitation
+	TODO is "bullet" too modern of a word to use?
 		[CDI:ADV_NAME:Fire shulker bullet]
 		[CDI:USAGE_HINT:ATTACK]
-		[CDI:FLOW:FIREBALL] TODO shulker bullet material
+		[CDI:MATERIAL:LOCAL_CREATURE_MAT:BULLET_MAT:SOLID_GLOB] TODO shulker bullet material
+		[CDI:VERB:fire a bullet:fires a strange bullet:NA]
 		[CDI:TARGET:C:LINE_OF_SIGHT]
 		[CDI:TARGET_RANGE:C:15]
 		[CDI:MAX_TARGET_NUMBER:C:1]
 		[CDI:WAIT_PERIOD:30]
+	[CAN_DO_INTERACTION:MC_ENDERMITE_SPAWN]
+		[CDI:ADV_NAME:Teleport]
+		[CDI:USAGE_HINT:DEFEND]
+		[CDI:VERB:flicker and spark:flickers and sparks:NA]
+		[CDI:WAIT_PERIOD:1000]
 	[ALL_ACTIVE]
     [HOMEOTHERM:10009]
 	[NO_SLEEP]
 	[NO_DIZZINESS]
     [SET_BP_GROUP:BY_TYPE:HEAD][BP_ADD_TYPE:HEAR]
 	[SET_TL_GROUP:BY_CATEGORY:ALL:SKIN]
-		[TL_COLOR_MODIFIER:CREAM:1] TODO double check color
+		[TL_COLOR_MODIFIER:CREAM:1]
 			[TLCM_NOUN:skin:SINGULAR]
+	[SET_TL_GROUP:BY_CATEGORY:ALL:SHELL]
+		[TL_COLOR_MODIFIER:LILAC:1]
+			[TLCM_NOUN:shell:SINGULAR]
     [SELECT_MATERIAL:ALL]
         [IF_EXISTS_SET_COLDDAM_POINT:NONE] the End is cold
     [SELECT_MATERIAL:ICHOR]
