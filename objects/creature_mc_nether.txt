@@ -123,7 +123,7 @@ and move these guys all there.
     [FIXED_TEMP:12000]
 	[BUILDINGDESTROYER:2]
 
-	[EXTRAVISION][NOPAIN][NOBREATHE][NOSTUN][NONAUSEA][NOEMOTION][NOBONES]
+	[NOPAIN][NOBREATHE][NOSTUN][NONAUSEA][NOEMOTION][NOBONES]
     [SWIMS_INNATE][NOT_BUTCHERABLE]
     [NOTHOUGHT][NOEXERT][NO_SLEEP]
     [NO_DIZZINESS][NO_FEVERS][ALL_ACTIVE]
@@ -132,8 +132,8 @@ and move these guys all there.
 	[POPULATION_NUMBER:250:500]
 	[CLUSTER_NUMBER:2:5]
 	[PREFSTRING:springlike body]
-	[BODY:BASIC_1PARTBODY_THOUGHT] TODO give it eyes, and maybe represent the "segments"
-    TODO give magma cream unique properties, including brewing
+	[BODY:BODY_WITH_HEAD_FLAG:2EYES] TODO maybe represent the "segments"
+    TODO give magma cream unique material properties so its liquid state is "creamier", and also potion brewing
 	[USE_MATERIAL_TEMPLATE:MAGMA_CREAM:STONE_TEMPLATE]
 		[STATE_COLOR:ALL_SOLID:ORANGE]
 		[STATE_NAME:ALL_SOLID:frozen magma cream]
@@ -143,9 +143,9 @@ and move these guys all there.
 		[STATE_NAME:GAS:boiling magma cream]
 		[STATE_ADJ:GAS:boiling magma cream]
 		[PREFIX:NONE]
-	[TISSUE:MAGMA_CREAM]
-		[TISSUE_NAME:magma cream:NP]
-		[TISSUE_MATERIAL:INORGANIC:BASALT]
+	[TISSUE:CORE]
+		[TISSUE_NAME:magma cream core:NP]
+		[TISSUE_MATERIAL:LOCAL_CREATURE_MAT:MAGMA_CREAM]
 		[TISSUE_MAT_STATE:LIQUID]
 		[MUSCULAR]
 		[FUNCTIONAL]
@@ -157,15 +157,14 @@ and move these guys all there.
 		[TISSUE_NAME:crust:NP]
 		[TISSUE_MATERIAL:INORGANIC:OBSIDIAN]
 		[TISSUE_MAT_STATE:SOLID]
-		[MUSCULAR]
-		[FUNCTIONAL]
 		[STRUCTURAL]
 		[RELATIVE_THICKNESS:5]
 		[CONNECTS]
 		[TISSUE_SHAPE:LAYER]
-    [TISSUE_LAYER:BY_CATEGORY:ALL:MAGMA_CREAM]
-	[TISSUE_LAYER:BY_CATEGORY:ALL:CRUST]
-	[ITEMCORPSE:STONE:NO_SUBTYPE:LOCAL_CREATURE_MAT:MAGMA_CREAM]
+    [TISSUE_LAYER:BY_CATEGORY:ALL:CORE]
+	TODO figure out how to make the eyes literally lead to the inside core, o there's no crust between the eyes and the core
+	[TISSUE_LAYER:BY_CATEGORY:HEAD:CRUST]
+	[ITEMCORPSE:LIQUID_MISC:NO_SUBTYPE:LOCAL_CREATURE_MAT:MAGMA_CREAM]
 	[ODOR_LEVEL:0]
 	[SMELL_TRIGGER:10000] cannot smell
 	TODO replace the walk gait with a custom one that mentions bouncing
