@@ -744,7 +744,6 @@ creature_mc_overworld
 		[TL_COLOR_MODIFIER:DARK_GREEN:1]
 			[TLCM_NOUN:eyes and false mouth:PLURAL]
 
-TODO other mooshroom variants (different mushroom types as well)
 [CREATURE:MC_MOOSHROOM]
     [COPY_TAGS_FROM:COW]
 	[CV_REMOVE_TAG:DESCRIPTION]
@@ -769,7 +768,7 @@ TODO other mooshroom variants (different mushroom types as well)
 	[APPLY_CURRENT_CREATURE_VARIATION]
 
 	[GO_TO_START]
-	[DESCRIPTION:A large mammalian herbivore, similar to a cow.  They often bear large horns and the males are ill-tempered.  It has mushrooms growing all over its body due to a fungal infection.]
+	[DESCRIPTION:A large mammalian herbivore, similar to a cow, but covered in mushrooms as part of a symbiotic relationship.  They often bear large horns and the males are ill-tempered.]
 	[NAME:mooshroom:mooshrooms:mooshroom]
 	[CASTE_NAME:mooshroom:mooshrooms:mooshroom]
 	[CREATURE_TILE:'m'][COLOR:4:0:1]
@@ -783,7 +782,7 @@ TODO other mooshroom variants (different mushroom types as well)
     [BIOME:SUBTERRANEAN_CHASM]
     [UNDERGROUND_DEPTH:1:2]
 	TODO use the mushroom materials directly when adding the mushroom trees and plants;
-	this will be so the actual, brewable mushroom plants can be harvested
+	this will be so the actual mushroom plants can be brewed/used for dyes/whatever
     [USE_MATERIAL_TEMPLATE:MUSHROOM:STRUCTURAL_PLANT_TEMPLATE]
 		[STATE_NAME:ALL_SOLID:mushroom]
 		[STATE_ADJ:ALL_SOLID:mushroom]
@@ -796,25 +795,24 @@ TODO other mooshroom variants (different mushroom types as well)
 		[EDIBLE_RAW]
 		[EDIBLE_COOKED]
 	[TISSUE:MUSHROOM]
-		[TISSUE_NAME:mushroom:NP]
+		[TISSUE_NAME:mushrooms:NP]
 		[TISSUE_MATERIAL:LOCAL_CREATURE_MAT:MUSHROOM] PLANT_MAT:PLANT_NAME_HERE:STRUCTURAL
 		[RELATIVE_THICKNESS:1]
 		[SUBORDINATE_TO_TISSUE:SKIN]
+		[HEALING_RATE:50]
 		[TISSUE_SHAPE:LAYER]
-	
-	[GO_TO_TAG:BODY_DETAIL_PLAN:BODY_HAIR_TISSUE_LAYERS:HAIR]
-    [TISSUE_LAYER:BY_CATEGORY:BODY_UPPER:MUSHROOM:TOP]
-	[TISSUE_LAYER:BY_CATEGORY:BODY_LOWER:MUSHROOM:TOP]
-	[TISSUE_LAYER:BY_CATEGORY:NECK:MUSHROOM:TOP]
-	[TISSUE_LAYER:BY_CATEGORY:HEAD:MUSHROOM:TOP]
 
 	[GO_TO_END]
-	[SELECT_CASTE:FEMALE]
+	the reason I'm making them all castes is so they can interbreed, like in MC
+	[SELECT_CASTE:FEMALE]	
+		[CASTE_NAME:red mooshroom:red mooshrooms:red mooshroom]
+		[CHILDNAME:red mooshroom calf:red mooshroom calves]
 		I don't know if SELECT_CASTE:FEMALE is actually needed to remove these mats,
 		but just in case.
 		[REMOVE_MATERIAL:MILK]
 		[REMOVE_MATERIAL:CHEESE]
 		TODO at some point in the future make it more like mushroom stew, instead of renamed milk; won't be cheesable either
+		TODO unique fungal milk for each mooshroom type
 		[USE_MATERIAL_TEMPLATE:MILK:MILK_TEMPLATE]
 			[STATE_NAME:ALL_SOLID:frozen fungal milk]
 			[STATE_ADJ:ALL_SOLID:frozen fungal milk]
@@ -835,12 +833,33 @@ TODO other mooshroom variants (different mushroom types as well)
 			[STATE_ADJ:GAS:boiling fungal cheese]
 			[PREFIX:NONE]
 	[SELECT_CASTE:MALE]
-		[CASTE_NAME:mooshroom bull:mooshroom bulls:mooshroom bull]
-		[CHILDNAME:mooshroom bull calf:mooshroom bull calves]
-	[SELECT_CASTE:ALL]
+		[CASTE_NAME:red mooshroom bull:red mooshroom bulls:red mooshroom bull]
+		[CHILDNAME:red mooshroom bull calf:red mooshroom bull calves]
+	[APPLY_CREATURE_VARIATION:MOOSHROOM:MUSHROOM_BROWN:brown:BROWN]
+		[CASTE_COLOR:6:0:0]
+	[APPLY_CREATURE_VARIATION:MOOSHROOM:MUSHROOM_HELMET_PLUMP:plump helmet:PURPLE]
+		[CASTE_COLOR:5:0:0]
+	[APPLY_CREATURE_VARIATION:MOOSHROOM:MUSHROOM_CUP_DIMPLE:dimple cup:MIDNIGHT_BLUE]
+		[CASTE_COLOR:1:0:0]
+	[APPLY_CREATURE_VARIATION:MOOSHROOM:TOWER_CAP:tower-cap:WHITE]
+		[CASTE_COLOR:7:0:1]
+	[APPLY_CREATURE_VARIATION:MOOSHROOM:FUNGIWOOD:fungiwood:LEMON]
+		[CASTE_COLOR:6:0:1]
+	TODO see if there is a less horrible way sort this out
+	[SELECT_CASTE:FEMALE]
+	[SELECT_ADDITIONAL_CASTE:MALE]
+		[TISSUE_LAYER:BY_CATEGORY:BODY_UPPER:MUSHROOM:TOP]
+		[TISSUE_LAYER:BY_CATEGORY:BODY_LOWER:MUSHROOM:TOP]
+		[TISSUE_LAYER:BY_CATEGORY:NECK:MUSHROOM:TOP]
+		[TISSUE_LAYER:BY_CATEGORY:HEAD:MUSHROOM:TOP]
+
 		[SET_TL_GROUP:BY_CATEGORY:ALL:HAIR]
+		[SET_TL_GROUP:BY_CATEGORY:ALL:MUSHROOM]
 			[TL_COLOR_MODIFIER:RED:1]
-				[TLCM_NOUN:hair:SINGULAR]
+				[TLCM_NOUN:hair and mushrooms:PLURAL]
+	TODO when I figure out biome restrictions: black-cap, nether-cap, goblin-cap, tunnel tube and spore tree variants
+	TODO when I add the nether stuff: crimson and warped mooshrooms
+	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SKIN]
 			[TL_COLOR_MODIFIER:BROWN:1:BURNT_UMBER:1:CINNAMON:1:COPPER:1:DARK_BROWN:1:DARK_PEACH:1:DARK_TAN:1:ECRU:1:PALE_BROWN:1:PALE_CHESTNUT:1:PALE_PINK:1:PEACH:1:PINK:1:RAW_UMBER:1:SEPIA:1:TAN:1:TAUPE_PALE:1:TAUPE_SANDY:1]
 				[TLCM_NOUN:skin:SINGULAR]
@@ -848,9 +867,7 @@ TODO other mooshroom variants (different mushroom types as well)
 			[TL_COLOR_MODIFIER:BLACK:1]
 				[TLCM_NOUN:eyes:PLURAL]
         [SET_TL_GROUP:BY_CATEGORY:ALL:MUSHROOM]
-			[TL_COLOR_MODIFIER:RED:1]
-					[TLCM_NOUN:mushrooms:PLURAL]
-				[SHEARABLE_TISSUE_LAYER:LENGTH:300]
+			[SHEARABLE_TISSUE_LAYER:LENGTH:300]
 
 [CREATURE:MC_MOOBLOOM] TODO after release, maybe should be the same as moolip?
 	[DOES_NOT_EXIST]
