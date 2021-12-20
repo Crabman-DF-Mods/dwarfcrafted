@@ -1,8 +1,8 @@
-# DwarfCrafted - v0.1.1 [47.05]
+# DwarfCrafted - v1.0 [47.05]
 
 _NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG._
 
-This mod aims to translate the things unique to the world of [Minecraft][MC] (creatures, plants, ores etc) into the world and spirit of [Dwarf Fortress][Dwarf_Fortress]. This includes spinoffs in the Minecraft franchise, such as [Minecraft Dungeons][MCD], to a lesser extent [Minecraft Earth][MCE] and [Minecraft Story Mode][MCSM], and whatever may come out in the future.
+This mod aims to translate the things unique to the world of [Minecraft][MC] (creatures, plants, ores etc) into the world and spirit of [Dwarf Fortress][Dwarf_Fortress]. This includes spinoffs in the Minecraft franchise, such as [Minecraft Dungeons (MCD)][MCD] and its DLC's, to a lesser extent [Minecraft Earth (MCE)][MCE] and [Minecraft Story Mode (MCSM)][MCSM], and whatever may come out in the future.
 
 This mod will not add anything from Minecraft that exists in the real world (eg, animals), even if Vanilla DF doesn't have it; other mods should be used for real world stuff. The exception to this rule will be if it's strongly tied to a fantasy thing somehow; for example, if cows didn't already exist in DF, I would have added them for the sake of mooshrooms.
 
@@ -33,13 +33,16 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - Phantoms
 - Silverfish
 - Slimes
-- Mooshrooms
+- Mooshrooms (variants are red, brown, plump helmet, dimple cup, tower-cap, and fungiwood)
 - Wardens (shhh!)
+- Shriekers
 - Guardians and Elder Guardians
 - Glow Squids
 - Iron Golems
+- Snow Golems
 - Endermen
 - Endermites
+- Shulkers (implemented, but I have no idea where to spawn them, so they're only available in the arena)
 - Enderdragons (megabeast)
 - Withers (megabeast)
 - Wither Skeletons
@@ -48,12 +51,22 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - Blazes
 - Striders
 - Hoglins
+- Vexes (summoned by evokers)
+- Fangs (summoned by evokers)
 
 ### Creatures from lost mob votes
 - Barnacles (Mob A from the 2017 Minecon vote)
 - Chompers (Mob C from the 2017 Minecon vote)
 - Wildfires (Mob D from the 2017 Minecon vote)
 - Glares (2021 Minecon vote)
+- Copper Golems (2021 Minecon vote)
+- Moobloom (2020 Minecon vote)
+
+### Creatures from Minecraft Earth
+- Furnace Golems
+- Melon Golems
+- Moolips (basically a type of moobloom)
+- Cluckshrooms (same variants as mooshrooms)
 
 ### Creatures from Minecraft Dungeons (including DLC)
 - Tropical Slimes (Hidden Depths)
@@ -64,6 +77,14 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 ### Stones & Ores
 - Prismarine
 
+### Plants
+- Sculk
+
+### Interactions/Magic
+- Evoker: summons vexes and fangs
+- Iceologer (2020 Minecon vote): summons either big chunks of ice, or deadly sharp icicles
+- Mage (MCD Arcade mode): telekinetic powers, mostly pushing things at a distance
+
 ## Planned Content
 
 Note that the below list is in no particular order, and is subject to change.
@@ -71,22 +92,13 @@ Note that the below list is in no particular order, and is subject to change.
 <details>
 <summary>Click to View</summary>
 
-### Creatures from Minecraft
-- Shulkers (partially implemented but do not spawn)
-- Snow Golems
-- Shriekers (technically plants, but I will likely add them as immobile creatures so they can actually shriek)
-- Other mooshroom variants (brown, and also plump helmet/dimple cup variants)
-
-### Creatures from lost mob votes
-- Copper Golems (2021 Minecon vote)
-- Moobloom (2020 Minecon vote)
+### Misc Creatures
+- More mooshroom variants: nether-cap, black-cap, goblin-cap, tunnel tube, and spore tree
+- More cluckshroom variants: nether-cap, black-cap, goblin-cap, tunnel tube, and spore tree
 
 ### Creatures from Minecraft Earth
-- Furnace Golems
-- Melon Golems
-- Moolips (could be considered pink mooblooms)
 - Magma Cows (concept art only)
-- Cluckshrooms (same variants as mooshrooms)
+- Hyper Rabbits (concept art only)
 - Bone Spiders
 
 ### Creatures from Minecraft Dungeons (including DLC)
@@ -105,6 +117,11 @@ Note that the below list is in no particular order, and is subject to change.
 - Leapleaves (Jungle Awakens)
 - Wavewhisperers (Hidden Depths)
 - Anemones (Hidden Depths)
+
+### Creatures from Minecraft Story Mode
+- Prismarine Golems (canon name is "Prismarine Foe")
+- Prismarine Colossuses
+- Creeders
 
 ### Stones & Ores
 - Redstone
@@ -135,17 +152,14 @@ Note that the below list is in no particular order, and is subject to change.
 - Blast fungus (MCD)
 - Deathcap Mushrooms (MCD)
 - Chorus Trees (lotus-like flowers and chorus fruit that can be cooked to get purpur to build with)
-- Sculk
 
 ### Interactions/Magic
-- Evoker (and summons!)
-- Enchanter
-- Geomancer (and summons!)
-- Iceologer
-- Wind Caller
-- Witch
-- Viler Witch
-- Illusioner
+Most of these sadly will have to wait for future DF updates before they become possible.
+- Enchanter: can enhance the durability and power of nearby allies and equipment
+- Geomancer: summons stone walls out of the ground, some of which may explode after a few seconds
+- Wind Caller: the power to control the wind on a small and large scale
+- Witch/Viler Witch: a profession dealing with alchemy and potions
+- Illusioner: create illusory objects and disguise things true appearance and location
 
 </details>
 
@@ -157,7 +171,7 @@ You can do whatever you like with this mod yourself privately, but you may not r
 
 If you want to use this in a modpack or mod compilation, please ask first.
 
-<!--Stuff below here shouldn't be visible-->
+<!--Links-->
 [LS]: https://gitlab.com/df-modding-tools/df-raw-language-server
 [Dwarf_Fortress]: https://bay12games.com/dwarves
 [MC]: https://www.minecraft.net
