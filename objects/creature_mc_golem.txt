@@ -70,9 +70,50 @@ villager/illager civs as magical constructs.
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[SWIMS_LEARNED]
 
-[CREATURE:MC_GOLEM_FURNACE]
-    [DOES_NOT_EXIST] maybe should be a caste of iron golem instead?
-    [DESCRIPTION:A large magically animated statue of a humanoid, made of iron. A furnace is built into its body, but the knowledge of how to operate this furnace is, like the secret to creating more such golems, lost to time.]
+[CREATURE:MC_GOLEM_FURNACE] maybe should be a caste of iron golem instead?
+    [COPY_TAGS_FROM:MC_GOLEM_IRON]
+	[CV_REMOVE_TAG:DESCRIPTION]
+	[CV_REMOVE_TAG:NAME]
+	[CV_REMOVE_TAG:CASTE_NAME]
+	[CV_REMOVE_TAG:FREQUENCY]
+	[CV_REMOVE_TAG:DIFFICULTY]
+	[CV_REMOVE_TAG:BIOME]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+	TODO when DF supports, let furnace golems be usable as actual mobile furnaces
+	[DESCRIPTION:A large magically animated iron statue of a humanoid, with a blazing furnace built into its body. The knowledge of how to create these golems has been lost to time.]
+    [NAME:furnace golem:furnace golems:furnace golem]
+	[CASTE_NAME:furnace golem:furnace golems:furnace golem]
+	[FIREIMMUNE]
+	[BIOME:ANY_DESERT][FREQUENCY:3] rarer
+    [DIFFICULTY:3]
+	[PREFSTRING:furnaces]
+	[USE_MATERIAL_TEMPLATE:FLAME:FLAME_TEMPLATE]
+		[MAT_FIXED_TEMP:10800] this is probably going to gradually heat them up
+		[PREFIX:NONE]
+	not using FLAME_TEMPLATE because I don't want MUSCULAR, STRUCTURAL or CONNECTS here
+	[TISSUE:FLAME] 
+		[TISSUE_NAME:flames:NP]
+		[FUNCTIONAL]
+		[TISSUE_MATERIAL:LOCAL_CREATURE_MAT:FLAME]
+		[TISSUE_MAT_STATE:GAS]
+		[RELATIVE_THICKNESS:1]
+		[HEALING_RATE:1]
+		[TISSUE_SHAPE:LAYER]
+	[TISSUE_LAYER_UNDER:BY_CATEGORY:BODY_UPPER:FLAME]
+	[TISSUE_LAYER_UNDER:BY_CATEGORY:HEAD:FLAME]
+	TODO when DF supports, make the flames get hotter/overflow out of the chest when angry;
+	in a more subtle way than this I mean.
+	[CAN_DO_INTERACTION:MATERIAL_EMISSION]
+ 		[CDI:ADV_NAME:Fire up furnace]
+ 		[CDI:USAGE_HINT:ATTACK]
+ 		[CDI:BP_REQUIRED:BY_CATEGORY:BODY_UPPER]
+ 		[CDI:MATERIAL:LOCAL_CREATURE_MAT:FLAME:UNDIRECTED_GAS]
+		[CDI:VERB:release a burst of flame from your furnace:releases a burst of flame from its furnace:NA]
+ 		[CDI:TARGET:C:LINE_OF_SIGHT]
+ 		[CDI:TARGET_RANGE:C:4]
+ 		[CDI:MAX_TARGET_NUMBER:C:1]
+ 		[CDI:WAIT_PERIOD:400]
 
 [CREATURE:MC_GOLEM_SNOW]
     [DOES_NOT_EXIST]
