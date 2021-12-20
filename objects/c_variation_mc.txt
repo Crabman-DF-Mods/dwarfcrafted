@@ -43,6 +43,24 @@ c_variation_mc
 			[CV_NEW_TAG:TL_COLOR_MODIFIER:!ARG3:1]
 				[CV_NEW_TAG:TLCM_NOUN:hair and flowers:PLURAL]
 
+[CREATURE_VARIATION:CLUCKSHROOM_CASTE]
+	[CV_NEW_TAG:USE_CASTE:!ARG1_FEMALE:FEMALE]
+		[CV_NEW_TAG:CASTE_NAME:!ARG2 cluckshroom hen:!ARG2 cluckshroom hen:!ARG2 cluckshroom hen]
+	[CV_NEW_TAG:USE_CASTE:!ARG1_MALE:MALE]
+		[CV_NEW_TAG:CASTE_NAME:!ARG2 cluckshroom rooster:!ARG2 cluckshroom roosters:!ARG2 cluckshroom rooster]
+	this bit is so I can add stuff to both of the castes at once
+	[CV_NEW_TAG:SELECT_CASTE:!ARG1_FEMALE]
+	[CV_NEW_TAG:SELECT_ADDITIONAL_CASTE:!ARG1_MALE]
+		[CV_NEW_TAG:CHILDNAME:!ARG2 cluckshroom chick:!ARG2 cluckshroom chicks]
+		TODO make the mushroom tissues specific to each variant
+		[CV_NEW_TAG:TISSUE_LAYER:BY_CATEGORY:BODY_UPPER:MUSHROOM:TOP]
+		[CV_NEW_TAG:TISSUE_LAYER:BY_CATEGORY:HEAD:MUSHROOM:TOP]
+		
+		[CV_NEW_TAG:SET_TL_GROUP:BY_CATEGORY:ALL:FEATHER]
+		[CV_NEW_TAG:SET_TL_GROUP:BY_CATEGORY:ALL:MUSHROOM]
+			[CV_NEW_TAG:TL_COLOR_MODIFIER:!ARG3:1]
+				[CV_NEW_TAG:TLCM_NOUN:feathers and mushrooms:PLURAL]
+
 Until the syntax for these CVs improves, I don't think I'll be making more illager beast types.
 [CREATURE_VARIATION:ILLAGER_BEAST]
 	TODO solve the problem causing their blood to be described as "nothing blood"
