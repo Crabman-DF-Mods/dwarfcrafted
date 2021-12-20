@@ -517,7 +517,7 @@ creature_mc_overworld
     [NO_GENDER]
 	[PREFSTRING:glowing green eyes]
     [PREFSTRING:screeching]
-	[SOUND:ALERT:100:1000:NONE:hungry screech:hungrily screeches:a shrill, predatory screech]
+	[SOUND:ALERT:100:1000:NONE:hungrily screech:hungrily screeches:a shrill, predatory screech]
     [SOUND:PEACEFUL_INTERMITTENT:100:10000:NONE:screech:screeches:a shrill screech]
 	[BODY:BASIC_2PARTBODY:2WINGS:BASIC_HEAD_NECK:TAIL:2EYES:NOSE:2LUNGS:HEART:GUTS:ORGANS:THROAT:NECK:SPINE:BRAIN:SKULL:MOUTH:FORKED_TONGUE:GENERIC_TEETH_WITH_FANGS:RIBCAGE]
 	[BODY_DETAIL_PLAN:STANDARD_MATERIALS]
