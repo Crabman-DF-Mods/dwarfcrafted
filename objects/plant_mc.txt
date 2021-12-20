@@ -1,0 +1,18 @@
+plant_mc
+
+[OBJECT:PLANT]
+
+[PLANT:SCULK]
+    TODO later (probably myth/magic) make only grow as a result of death/soul absorbtion
+	[NAME:sculk][NAME_PLURAL:sculk veins][ADJ:sculk]
+	[USE_MATERIAL_TEMPLATE:STRUCTURAL:SCULK_TEMPLATE]
+	[BASIC_MAT:LOCAL_PLANT_MAT:STRUCTURAL]
+	[GRASS]
+	[GRASS_TILES:'.':',':'`':''']
+	[GRASS_COLORS:0:0:0:3:0:0:0:0:0:0:0:0]
+    [PREFSTRING:pulsating glow]
+    [PREFSTRING:morbid presence] morbid because of their origins
+	[WET]
+	[DRY]
+	[BIOME:SUBTERRANEAN_CHASM]
+	[UNDERGROUND_DEPTH:3:3]
