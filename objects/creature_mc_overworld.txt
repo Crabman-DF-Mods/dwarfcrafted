@@ -888,6 +888,7 @@ TODO other mooshroom variants (different mushroom types as well)
 		[MUSCULAR]
 		[FUNCTIONAL]
 		[STRUCTURAL]
+		[HEALING_RATE:1]
 		[RELATIVE_THICKNESS:3]
 		[CONNECTS]
 		[TISSUE_SHAPE:LAYER]
@@ -967,11 +968,56 @@ TODO other mooshroom variants (different mushroom types as well)
         [TL_COLOR_MODIFIER:TEAL:1]
             [TLCM_NOUN:antennae, hands and mouth:PLURAL]
 
-[CREATURE:MC_SHRIEKER] TODO after release
-	[DOES_NOT_EXIST]
+[CREATURE:MC_SHRIEKER]
 	[DESCRIPTION:A large growth made of sculk, with jagged, jawlike bones sticking out of the top.  In between the bony jaws swirling blue souls can be seen within.  If it hears anything, it will shriek loudly, potentialy attracting unwanted attention to whoever disturbs it.]
     [NAME:shrieker:shriekers:shrieker]
+	[CASTE_NAME:shrieker:shriekers:shrieker]
 	[CREATURE_TILE:'*'][COLOR:0:0:0]
-	[FREQUENCY:100][POPULATION_NUMBER:250:500]
+	[FREQUENCY:2][POPULATION_NUMBER:4:12]
+	[DIFFICULTY:5] because it can potentially lead to multiple wardens...
+	[IMMOBILE]
+	[NOT_BUTCHERABLE]
+	[BIOME:SUBTERRANEAN_CHASM]
+	[UNDERGROUND_DEPTH:3:3]
+	[EXTRAVISION]
+	[NOT_LIVING][OPPOSED_TO_LIFE] lifeless
+    [NOEXERT][NOPAIN][NOSTUN][NONAUSEA][NO_DIZZINESS][NO_FEVERS][PARALYZEIMMUNE] immunities
+	[NO_PHYS_ATT_GAIN][NO_PHYS_ATT_RUST] lack of progress or loss
+	[NOBREATHE][NO_EAT][NO_DRINK][NO_SLEEP] lack of needing sustenance
+    [NOEMOTION][NOFEAR][NOTHOUGHT] emotionless and mindless
+    [NO_THOUGHT_CENTER_FOR_MOVEMENT][NO_CONNECTIONS_FOR_MOVEMENT] can endure damage
 	[PREFSTRING:harrowing shrieks]
 	[PREFSTRING:bony jaws]
+	[PHYS_ATT_RANGE:RECUPERATION:4000:4300:4600:5000:5000:5000:5000]
+	[BODY:BODY_WITH_HEAD_FLAG:MOUTH]
+	[RELSIZE:BY_CATEGORY:HEAD:50] to make the mouth similarly sized to the head
+	TODO rename mouth using BODYGLOSS to "jaws"
+	[USE_MATERIAL_TEMPLATE:SCULK:SCULK_TEMPLATE]
+	[USE_MATERIAL_TEMPLATE:BONE:BONE_TEMPLATE]
+	[TISSUE:SCULK]
+		[TISSUE_NAME:sculk:sculk]
+		[TISSUE_MATERIAL:LOCAL_CREATURE_MAT:SCULK]
+		[MUSCULAR]
+		[FUNCTIONAL]
+		[STRUCTURAL]
+		[HEALING_RATE:1]
+		[RELATIVE_THICKNESS:3]
+		[CONNECTS]
+		[TISSUE_SHAPE:LAYER]
+	[USE_TISSUE_TEMPLATE:BONE:BONE_TEMPLATE]
+	[TISSUE_LAYER:BY_CATEGORY:HEAD:SCULK]
+	[TISSUE_LAYER:BY_CATEGORY:MOUTH:BONE]
+	TODO with myth/magic for shriekers:
+	- this should be an actual shriek, so it will behave like a SOUND
+	- should cause a "darkness" effect, or perhaps blindness. either way should be AOE
+	[CAN_DO_INTERACTION:MC_SHRIEK]
+		[CDI:ADV_NAME:Shriek]
+		[CDI:USAGE_HINT:DEFEND]
+		[CDI:VERB:release a harrowing shriek:releases a harrowing shriek:NA]
+		[CDI:WAIT_PERIOD:5000] dang these are overtuned
+	[BODY_SIZE:0:0:50000]
+	[BODY_APPEARANCE_MODIFIER:BROADNESS:90:95:98:100:102:105:110]
+	[ALL_ACTIVE]
+	[SET_TL_GROUP:BY_CATEGORY:ALL:SCULK]
+		[TL_COLOR_MODIFIER:BLACK:1]
+			[TLCM_NOUN:body:SINGULAR]
