@@ -281,14 +281,25 @@ unique to them).
 	skin
 		[GO_TO_TAG:TL_COLOR_MODIFIER:BROWN:1]
 		[CV_REMOVE_TAG:TL_COLOR_MODIFIER:BROWN:1]
-		[APPLY_CURRENT_CREATURE_VARIATION]
+		I had to move the below TL_COLOR_MODIFIER to before CV_REMOVE_TAG:TL_COLOR_MODIFIER:BROWN
+		is applied.
+
+		This was because of a weird bug I still can't understand; instead of just saying
+		"her skin is ash grey" for example, it would say "her upper lip's skin is ash grey", even
+		though literally the only difference is whether this token is added before or after the last
+		being removed, and it has absolutely nothing to do with upper lips.
+
+		Even stranger, removing TL_COLOR_MODIFIER:BROWN first isn't problem for the ravagers or
+		stalkers; they have their skin described normally.
 		[TL_COLOR_MODIFIER:ASH_GRAY:1:BLACK:1:CHARCOAL:1:GRAY:1:SLATE_GRAY:1:TAUPE_GRAY:1]
+		[APPLY_CURRENT_CREATURE_VARIATION]
 	eyebrows
 		[GO_TO_TAG:TL_COLOR_MODIFIER:AMBER:1]
 		[CV_REMOVE_TAG:TL_COLOR_MODIFIER:AMBER:1]
 		[APPLY_CURRENT_CREATURE_VARIATION]
 		[TL_COLOR_MODIFIER:ASH_GRAY:1:BLACK:1:CHARCOAL:1:GRAY:1:SILVER:1:SLATE_GRAY:1:TAUPE_GRAY:1:WHITE:1]
 	[GO_TO_START]
+	[DESCRIPTION:A bald humanoid with a tall head and massive nose that dangles as far down as its chin. Its skin and hair are a sickly grey due to the influence of dark magic.]
 	[NAME:illager:illagers:illager]
 	[CASTE_NAME:illager:illagers:illager]
 	[CREATURE_TILE:139][COLOR:7:0:0]
