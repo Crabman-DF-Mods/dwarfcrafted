@@ -38,6 +38,13 @@ nobody else seems to represent eye sockets in their mods, nor blind cave bears i
 	[BP:LEYE:left eye socket:STP][CONTYPE:HEAD][SIGHT][APERTURE][EMBEDDED][SMALL][LEFT][CATEGORY:CAVITY]
 		[DEFAULT_RELSIZE:50]
 
+[BODY:MC_SLIME_OUTER_LAYER]
+	[BP:OUTER_LAYER:outer layer:STP][CONTYPE:HEAD][CATEGORY:OUTER_LAYER]
+		[DEFAULT_RELSIZE:1000] TODO update this more rigorously later
+
+In this mod, I'm interpreting the "mouth" of slimes to actually all be sensory organs
+[BODYGLOSS:MC_SLIME_MOUTH:center eye:mouth:center eyes:mouths]
+
 [BODY:MC_GUARDIAN_SPIKES]
 	[BP:SPIKE1:first spike:STP][CONTYPE:HEAD][SMALL][EMBEDDED][SKELETON][CATEGORY:SPIKE]
 		[DEFAULT_RELSIZE:30]

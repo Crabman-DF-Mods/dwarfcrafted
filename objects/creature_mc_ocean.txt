@@ -168,7 +168,7 @@ creature_mc_ocean
 				[TLCM_NOUN:eye:SINGULAR]
 
 [CREATURE:MC_SLIME_TROPICAL]
-	[DESCRIPTION:A blob of slime with an outer layer composed of water, in which fish often live. It has sensory organs floating inside its outer layer that resemble eyes and a mouth.]
+	[DESCRIPTION:A blob of slime with an outer layer composed of water, in which fish often live. It has sensory organs embedded in its core, which resemble eyes and a mouth.]
 	[NAME:tropical slime:tropical slimes:tropical slime]
 	[CASTE_NAME:tropical slime:tropical slimes:tropical slime]
 	[CREATURE_TILE:'o'][COLOR:1:0:1]
@@ -187,10 +187,13 @@ creature_mc_ocean
     [PREFSTRING:cute "face"]
 	[PREFSTRING:ability to host living fish]
 	[PREFSTRING:watery composition]
-    TODO slime parts
-    - inner "core" body part (maybe not necessary with the layers)
-    - eyes and "mouth" embedded in core
-	[BODY:BASIC_1PARTBODY_THOUGHT] 
+	
+	[BODY:BODY_WITH_HEAD_FLAG:MC_SLIME_OUTER_LAYER:3EYES]
+	[BODYGLOSS:MC_SLIME_MOUTH]
+	[BODY_DETAIL_PLAN:MC_SLIME_LAYER_POSITIONS]
+	[BODY_DETAIL_PLAN:HUMANOID_HEAD_POSITIONS]
+	[RELSIZE:BY_CATEGORY:EYE:200] because of the size of BODY_WITH_HEAD_FLAG
+	[RELSIZE:BY_TOKEN:EYE:20] the mouth part is smaller
 	don't know if this is an ideal template, but will do for now probably
 	[USE_MATERIAL_TEMPLATE:SLIME:SLIME_TEMPLATE]
 		[STATE_NAME:ALL_SOLID:frozen slime]
@@ -220,8 +223,9 @@ creature_mc_ocean
 		[CONNECTS]
 		[TISSUE_LEAKS]
 		[TISSUE_SHAPE:LAYER]
-	[TISSUE_LAYER:BY_CATEGORY:ALL:SKIN]
-	[TISSUE_LAYER_UNDER:BY_CATEGORY:ALL:CORE]
+	[TISSUE_LAYER:BY_CATEGORY:OUTER_LAYER:SKIN]
+	[TISSUE_LAYER:BY_CATEGORY:HEAD:CORE]
+	[TISSUE_LAYER:BY_CATEGORY:EYE:CORE]
 	TODO replace the walk gait with a custom one that mentions bouncing
 	[APPLY_CREATURE_VARIATION:STANDARD_WALK_CRAWL_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
@@ -231,9 +235,12 @@ creature_mc_ocean
 	[NO_SLEEP]
 	[NO_DIZZINESS]
 	[NO_FEVERS]
-	[SET_TL_GROUP:BY_CATEGORY:ALL:CORE]
+	[SET_TL_GROUP:BY_CATEGORY:HEAD:CORE]
 		[TL_COLOR_MODIFIER:CERULEAN:1]
-			[TLCM_NOUN:inner parts:PLURAL]
+			[TLCM_NOUN:core:SINGULAR]
+	[SET_TL_GROUP:BY_CATEGORY:EYE:CORE]
+		[TL_COLOR_MODIFIER:DARK_BLUE:1]
+			[TLCM_NOUN:eyes and false mouth:PLURAL]
 	can't drop them randomly with only 1 caste apparently
 	[CASTE:FISH_CLOWNFISH]
 		[ITEMCORPSE:FISH_RAW:NO_SUBTYPE:FISH_CLOWNFISH:ALL]

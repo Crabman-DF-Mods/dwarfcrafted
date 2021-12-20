@@ -651,7 +651,7 @@ creature_mc_overworld
             [MULTIPLY_VALUE:2]
 
 [CREATURE:MC_SLIME]
-    [DESCRIPTION:A mostly cubical mass of bouncy slime that moves by hopping around. It slowly digests whatever it envelopes inside its body. It has sensory organs floating inside its outer layer that resemble eyes and a mouth.]
+    [DESCRIPTION:A mostly cubical mass of bouncy slime that moves by hopping around. It slowly digests whatever it envelopes inside its body. It has sensory organs embedded in its core, which resemble eyes and a mouth.]
 	[NAME:slime:slimes:slime]
 	[CASTE_NAME:slime:slimes:slime]
 	[CREATURE_TILE:'o'][COLOR:2:0:1]
@@ -670,10 +670,13 @@ creature_mc_overworld
     [PREFSTRING:bouncing]
     [PREFSTRING:wobbly, jelly-like consistency]
     [PREFSTRING:cute "face"]
-    TODO slime parts
-    - inner "core" body part (maybe not necessary with the layers)
-    - eyes and "mouth" embedded in core
-	[BODY:BASIC_1PARTBODY_THOUGHT] 
+
+	[BODY:BODY_WITH_HEAD_FLAG:MC_SLIME_OUTER_LAYER:3EYES]
+	[BODYGLOSS:MC_SLIME_MOUTH]
+	[BODY_DETAIL_PLAN:MC_SLIME_LAYER_POSITIONS]
+	[BODY_DETAIL_PLAN:HUMANOID_HEAD_POSITIONS]
+	[RELSIZE:BY_CATEGORY:EYE:200] because of the size of BODY_WITH_HEAD_FLAG
+	[RELSIZE:BY_TOKEN:EYE:20] the mouth part is smaller
 	don't know if this is an ideal template, but will do for now probably
 	[USE_MATERIAL_TEMPLATE:SLIME:SLIME_TEMPLATE]
 		[STATE_NAME:ALL_SOLID:frozen slime]
@@ -685,7 +688,7 @@ creature_mc_overworld
 		[STATE_COLOR:ALL:GREEN]
 		[PREFIX:NONE]
 	[TISSUE:SKIN]
-		[TISSUE_NAME:outer slime layer:NP]
+		[TISSUE_NAME:slime:NP]
 		[TISSUE_MATERIAL:LOCAL_CREATURE_MAT:SLIME]
 		[TISSUE_MAT_STATE:LIQUID]
 		[STRUCTURAL]
@@ -703,8 +706,9 @@ creature_mc_overworld
 		[CONNECTS]
 		[TISSUE_LEAKS]
 		[TISSUE_SHAPE:LAYER]
-	[TISSUE_LAYER:BY_CATEGORY:ALL:SKIN]
-	[TISSUE_LAYER_UNDER:BY_CATEGORY:ALL:CORE]
+	[TISSUE_LAYER:BY_CATEGORY:OUTER_LAYER:SKIN]
+	[TISSUE_LAYER:BY_CATEGORY:HEAD:CORE]
+	[TISSUE_LAYER:BY_CATEGORY:EYE:CORE]
 	TODO replace the walk gait with a custom one that mentions bouncing
 	[APPLY_CREATURE_VARIATION:STANDARD_WALK_CRAWL_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
@@ -715,11 +719,14 @@ creature_mc_overworld
 	[NO_DIZZINESS]
 	[NO_FEVERS]
 	[SET_TL_GROUP:BY_CATEGORY:ALL:SKIN]
-		[TL_COLOR_MODIFIER:GREEN:1]
+		[TL_COLOR_MODIFIER:MOSS_GREEN:1]
 			[TLCM_NOUN:outer layer:SINGULAR]
-	[SET_TL_GROUP:BY_CATEGORY:ALL:CORE]
+	[SET_TL_GROUP:BY_CATEGORY:HEAD:CORE]
+		[TL_COLOR_MODIFIER:GREEN:1]
+			[TLCM_NOUN:core:SINGULAR]
+	[SET_TL_GROUP:BY_CATEGORY:EYE:CORE]
 		[TL_COLOR_MODIFIER:DARK_GREEN:1]
-			[TLCM_NOUN:inner parts:PLURAL]
+			[TLCM_NOUN:eyes and false mouth:PLURAL]
 
 TODO other mooshroom variants (different mushroom types as well)
 [CREATURE:MC_MOOSHROOM]
