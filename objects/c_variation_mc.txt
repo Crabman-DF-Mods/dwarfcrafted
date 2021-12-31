@@ -63,7 +63,6 @@ c_variation_mc
 
 Until the syntax for these CVs improves, I don't think I'll be making more illager beast types.
 [CREATURE_VARIATION:ILLAGER_BEAST]
-	TODO solve the problem causing their blood to be described as "nothing blood"
 	[CV_REMOVE_TAG:NAME]
 	[CV_REMOVE_TAG:GENERAL_CHILD_NAME]
 	[CV_REMOVE_TAG:GENERAL_BABY_NAME]
@@ -147,8 +146,6 @@ Until the syntax for these CVs improves, I don't think I'll be making more illag
     [CV_REMOVE_CTAG:1:RAVAGER:TISSUE_LAYER:BY_CATEGORY:TOE]
 	[CV_NEW_CTAG:1:RAVAGER:USE_MATERIAL_TEMPLATE:HORN:HORN_TEMPLATE]
 	[CV_NEW_CTAG:1:RAVAGER:USE_TISSUE_TEMPLATE:HORN:HORN_TEMPLATE]
-    [CV_NEW_CTAG:1:RAVAGER:NAME:ravager:ravagers:ravager]
-	[CV_NEW_CTAG:1:RAVAGER:CASTE_NAME:ravager:ravagers:ravager]
 	[CV_NEW_CTAG:1:RAVAGER:CREATURE_TILE:'R'][CV_NEW_CTAG:1:RAVAGER:COLOR:7:0:0]
     [CV_NEW_CTAG:1:RAVAGER:PETVALUE:800]
     [CV_NEW_CTAG:1:RAVAGER:WAGON_PULLER][CV_NEW_CTAG:1:RAVAGER:PACK_ANIMAL]
@@ -186,8 +183,6 @@ Until the syntax for these CVs improves, I don't think I'll be making more illag
     - wears armor on back, shoulders and on limbs/ankles and saddle as mount, has chains on sides too
     - created by illagers from kidnapped children and prisoners of war, should retain look of the former person
     Stalker ===================================================================
-    [CV_NEW_CTAG:1:STALKER:NAME:stalker:stalkers:stalker]
-	[CV_NEW_CTAG:1:STALKER:CASTE_NAME:stalker:stalkers:stalker]
 	[CV_NEW_CTAG:1:STALKER:CREATURE_TILE:'s'][CV_NEW_CTAG:1:STALKER:COLOR:7:0:0]
     [CV_NEW_CTAG:1:STALKER:PETVALUE:600]
     [CV_NEW_CTAG:1:STALKER:PACK_ANIMAL][CV_NEW_CTAG:1:STALKER:TRADE_CAPACITY:1500]

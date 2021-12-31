@@ -23,6 +23,7 @@ The meaning of each subcategory of change is as follows:
 ### Removed
 
 ### Fixed
+- Fixed ravagers and stalkers blood being described as "nothing blood"
 
 ## [v1.0.0] - 2021-12-20
 ### Added
