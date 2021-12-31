@@ -24,6 +24,7 @@ The meaning of each subcategory of change is as follows:
 
 ### Fixed
 - Fixed ravagers and stalkers blood being described as "nothing blood"
+- Fixed the mooshroom, cluckshroom and moolip variants; all of them were broken except mooblooms, the red mooshrooms, and red cluckshrooms, oops!
 
 ## [v1.0.0] - 2021-12-20
 ### Added
