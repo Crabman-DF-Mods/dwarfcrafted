@@ -23,6 +23,9 @@ The meaning of each subcategory of change is as follows:
 ### Removed
 
 ### Fixed
+
+## [v1.0.1] - 2021-12-31
+### Fixed
 - Fixed ravagers and stalkers blood being described as "nothing blood"
 - Fixed the mooshroom, cluckshroom and moolip variants; all of them were broken except mooblooms, the red mooshrooms, and red cluckshrooms, oops!
 
@@ -131,7 +134,8 @@ The initial public release. It contains the following:
 - Partially implemented shulkers
 
 <!--Links-->
-[Unreleased]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.0.1...HEAD
+[v1.0.1]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v0.1.1...v1.0.0
 [v0.1.1]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v0.1.0...v0.1.1
 [v0.1.0]: https://github.com/Crabman-DF-Mods/dwarfcrafted/releases/tag/v0.1.0
