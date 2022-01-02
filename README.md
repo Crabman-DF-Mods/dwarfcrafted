@@ -6,7 +6,7 @@ This mod aims to translate the things unique to the world of [Minecraft][MC] (cr
 
 This mod will not add anything from Minecraft that exists in the real world (eg, animals), even if Vanilla DF doesn't have it; other mods should be used for real world stuff. The exception to this rule will be if it's strongly tied to a fantasy thing somehow; for example, if cows didn't already exist in DF, I would have added them for the sake of mooshrooms.
 
-This mod was created with the help of the [Dwarf Fortress RAW language server extension][LS], which is currently in alpha, but I still recommend it for anyone wanting to make Dwarf Fortress mods, either for the first time or as a veteran.
+This mod was created with the help of the [Dwarf Fortress RAW language server extension][LS], which is currently in beta, but I still recommend it for anyone wanting to make Dwarf Fortress mods, either for the first time or as a veteran.
 
 If you want to check out my other mods, follow one of these links:
 - DFFD downloads: https://dffd.bay12games.com/who.php?id=9116
@@ -92,7 +92,7 @@ Note that the below list is in no particular order, and is subject to change.
 <details>
 <summary>Click to View</summary>
 
-### Misc Creatures
+### Creature Variants
 - More mooshroom variants: nether-cap, black-cap, goblin-cap, tunnel tube, and spore tree
 - More cluckshroom variants: nether-cap, black-cap, goblin-cap, tunnel tube, and spore tree
 
