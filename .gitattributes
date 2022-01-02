@@ -1,0 +1,7 @@
+# Prevents conflicts when editing changelog in multiple branches
+CHANGELOG.md merge=union
+
+# Exclude files and directories from being exported
+.gitattributes  export-ignore
+.gitignore      export-ignore
+.github         export-ignore
