@@ -71,6 +71,10 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 ### Creatures from Minecraft Dungeons (including DLC)
 - Tropical Slimes (Hidden Depths)
 
+### Creatures from Minecraft Story Mode
+- Prismarine Soldiers
+- Prismarine Colossuses (megabeast)
+
 ### Creatures not canon to Minecraft
 - Stalkers ([based off early ravager designs](https://www.minecraft.net/content/dam/minecraft/insider-features/meet-the-ravager/SomeEarlyDesigns.jpeg))
 
@@ -119,8 +123,6 @@ Note that the below list is in no particular order, and is subject to change.
 - Anemones (Hidden Depths)
 
 ### Creatures from Minecraft Story Mode
-- Prismarine Golems (canon name is "Prismarine Foe")
-- Prismarine Colossuses
 - Creeders
 
 ### Stones & Ores
