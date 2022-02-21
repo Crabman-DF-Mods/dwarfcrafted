@@ -19,6 +19,7 @@ The meaning of each subcategory of change is as follows:
 ### Added
 - Prismarine soliders; large, ancient statues with tentacled faces, created to protect undersea temples which appear not to exist anymore
 - Prismarine colossuses; huge megabeasts much like the prismarine soliders, but far, far bigger
+- Creeders; horrid abominations that take the explosiveness of creepers, and add arachnophobia
 
 ### Changed
 - Made the readme file more up to date; the DF RAW LS is out of alpha, and "Creature Variants" is better phrasing for the planned content than "Misc Creatures"

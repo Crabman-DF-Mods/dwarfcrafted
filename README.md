@@ -74,6 +74,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 ### Creatures from Minecraft Story Mode
 - Prismarine Soldiers
 - Prismarine Colossuses (megabeast)
+- Creeders
 
 ### Creatures not canon to Minecraft
 - Stalkers ([based off early ravager designs](https://www.minecraft.net/content/dam/minecraft/insider-features/meet-the-ravager/SomeEarlyDesigns.jpeg))
@@ -121,9 +122,6 @@ Note that the below list is in no particular order, and is subject to change.
 - Leapleaves (Jungle Awakens)
 - Wavewhisperers (Hidden Depths)
 - Anemones (Hidden Depths)
-
-### Creatures from Minecraft Story Mode
-- Creeders
 
 ### Stones & Ores
 - Redstone
