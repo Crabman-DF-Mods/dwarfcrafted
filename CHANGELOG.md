@@ -23,6 +23,7 @@ The meaning of each subcategory of change is as follows:
 
 ### Changed
 - Made the readme file more up to date; the DF RAW LS is out of alpha, and "Creature Variants" is better phrasing for the planned content than "Misc Creatures"
+- Made the readme file more readable and expanded the planned content list slightly
 
 ### Removed
 
