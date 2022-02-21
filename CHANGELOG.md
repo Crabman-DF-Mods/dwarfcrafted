@@ -27,6 +27,7 @@ The meaning of each subcategory of change is as follows:
 ### Removed
 
 ### Fixed
+- Made creepers move a bit faster, because 1 kph max speed was kind of stupid and just a placeholder I forgot to change; now it's 3 kph crawling, 6 kph walking
 
 ## [v1.0.1] - 2021-12-31
 ### Fixed
