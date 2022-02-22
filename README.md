@@ -58,7 +58,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - __Barnacles (Mob A from the 2017 Minecon vote):__ sea-dwelling monsters with massive 4-hinged maws and a long tongue for dragging prey into the depths.
 - __Chompers (Mob C from the 2017 Minecon vote):__ huge ambush predators that live underground and in deserts. Their heads are enourmous for their size.
 - __Wildfires (Mob D from the 2017 Minecon vote):__ floating heads with 4 shields levitating beneath them. They fling fireballs at whatever they see as an "intruder", and can produce a smokey shockwave.
-- __Glares (2021 Minecon vote):__ small flying clumps of moss with glowing eyes peering out; they're known fortheir urge to warn people of danger, by means of getting grumpy and assertively grumbling.
+- __Glares (2021 Minecon vote):__ small flying clumps of moss with glowing eyes peering out; they're known for their urge to warn people of danger, by means of getting grumpy and assertively grumbling.
 - __Copper Golems (2021 Minecon vote):__ small little golems made of copper, with lightning rods on their heads.
 - __Moobloom (2020 Minecon vote):__ cows with buttercups growing from their backs, found only in magical places alongside the likes of fairies and unicorns.
 

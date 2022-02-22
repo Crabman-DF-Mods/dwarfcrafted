@@ -23,6 +23,7 @@ The meaning of each subcategory of change is as follows:
 ### Removed
 
 ### Fixed
+- Typos in `README.md`
 
 ## [v1.1.0] - 2022-02-22
 
