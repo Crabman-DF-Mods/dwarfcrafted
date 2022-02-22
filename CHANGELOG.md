@@ -17,6 +17,16 @@ The meaning of each subcategory of change is as follows:
 ## [Unreleased]
 
 ### Added
+
+### Changed
+
+### Removed
+
+### Fixed
+
+## [v1.1.0] - 2022-02-22
+
+### Added
 - Prismarine soliders; large, ancient statues with tentacled faces, created to protect undersea temples which appear not to exist anymore
 - Prismarine colossuses; huge megabeasts much like the prismarine soliders, but far, far bigger
 - Creeders; horrid abominations that take the explosiveness of creepers, and add arachnophobia
@@ -26,8 +36,6 @@ The meaning of each subcategory of change is as follows:
 - Made the readme file more up to date; the DF RAW LS is out of alpha, and "Creature Variants" is better phrasing for the planned content than "Misc Creatures"
 - Made the readme file more readable and expanded the planned content list slightly
 - Made male enderdragons drop eggs when they die, not just females
-
-### Removed
 
 ### Fixed
 - Made creepers move a bit faster, because 1 kph max speed was kind of stupid and just a placeholder I forgot to change; now it's 3 kph crawling, 6 kph walking
@@ -142,7 +150,8 @@ The initial public release. It contains the following:
 - Partially implemented shulkers
 
 <!--Links-->
-[Unreleased]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.0.1...HEAD
+[Unreleased]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.1.0...HEAD
+[v1.1.0]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.0.1...v1.1.0
 [v1.0.1]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v0.1.1...v1.0.0
 [v0.1.1]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v0.1.0...v0.1.1
