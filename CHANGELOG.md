@@ -17,6 +17,7 @@ The meaning of each subcategory of change is as follows:
 ## [Unreleased]
 
 ### Added
+- Hyper rabbits; a hyperactive species of rabbit with long whiskers, messy fur, and an unusual color scheme
 
 ### Changed
 

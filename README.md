@@ -67,6 +67,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - __Melon Golems:__ magically animated snowmen with mysteriously never-rotting melons instead of heads. They toss snowballs and can spit watermelon seeds as a weapon.
 - __Moolips:__ a variant of moobloom with pink flowers instead.
 - __Cluckshrooms:__ underground-dwelling chickens with mushrooms sprouting from their bodies. They come in all the same variants as mooshrooms.
+- __Hyper Rabbits:__ a hyperactive species of rabbit with long whiskers, messy fur, and an unusual color scheme. [Inspired by official concept art that never made it into the actual game](https://minecraft.fandom.com/wiki/Minecraft_Earth:Hyper_Rabbit).
 
 ### Creatures from Minecraft Dungeons (including DLC)
 - __Tropical Slimes (Hidden Depths):__ cube-shaped chunks of living slime and water, with tropical fish swimming around in their watery layers. They live in oceans.
@@ -103,7 +104,6 @@ Note that the below list is in no particular order, and is subject to change.
 
 ### Creatures from Minecraft Earth
 - __Magma Cows__ (concept art only)
-- __Hyper Rabbits__ (concept art only)
 - __Bone Spiders__
 
 ### Creatures from Minecraft Dungeons (including DLC)
