@@ -3,7 +3,7 @@ creature_mc_overworld
 [OBJECT:CREATURE]
 
 [CREATURE:MC_CREEPER]
-    [DESCRIPTION:A tall plantlike quadruped with a sorrowful expression.]
+    [DESCRIPTION:A tall plantlike quadruped with a sorrowful expression. They explode when near a suitable host for their spores.]
     [NAME:creeper:creepers:creeper]
 	[CASTE_NAME:creeper:creepers:creeper]
     [CREATURE_TILE:'c'][COLOR:2:0:0]
@@ -140,7 +140,7 @@ creature_mc_overworld
 	[APPLY_CURRENT_CREATURE_VARIATION]
 
 	[GO_TO_START]
-	[DESCRIPTION:A tall cactus-like quadruped with a sorrowful expression.]
+	[DESCRIPTION:A tall cactus-like quadruped with a sorrowful expression. They explode when near a suitable host for their spore-covered thorns.]
     [NAME:cactus creeper:cactus creepers:cactus creeper]
 	[CASTE_NAME:cactus creeper:cactus creepers:cactus creeper]
     [CREATURE_TILE:'c'][COLOR:2:0:0]
@@ -197,7 +197,7 @@ creature_mc_overworld
     [APPLY_CURRENT_CREATURE_VARIATION]
 
     [GO_TO_START]
-    [DESCRIPTION:A grotesque spider-like creature with an armless, humanoid torso affixed to its back. Is face bears a sorrowful expression.]
+    [DESCRIPTION:A grotesque spider-like creature with an armless, humanoid torso affixed to its back. Is face bears a sorrowful expression. They explode when near a suitable host for their spores.]
     [NAME:creeder:creeders:creeder]
     [CASTE_NAME:creeder:creeders:creeder]
     [CREATURE_TILE:'c'][COLOR:0:0:0]

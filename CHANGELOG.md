@@ -22,6 +22,7 @@ The meaning of each subcategory of change is as follows:
 - Bone Spiders; gigantic spiders with a layer of bone protecting them
 
 ### Changed
+- Updated the ingame descriptions of all creepers; they mention the fact that they explode now
 
 ### Removed
 
