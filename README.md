@@ -67,6 +67,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - __Melon Golems:__ magically animated snowmen with mysteriously never-rotting melons instead of heads. They toss snowballs and can spit watermelon seeds as a weapon.
 - __Moolips:__ a variant of moobloom with pink flowers instead.
 - __Cluckshrooms:__ underground-dwelling chickens with mushrooms sprouting from their bodies. They come in all the same variants as mooshrooms.
+- __Bone Spiders:__ gigantic underground-dwelling spiders with a layer of bone protecting their cephalothorax, and the top of their abdomen and legs.
 - __Hyper Rabbits:__ a hyperactive species of rabbit with long whiskers, messy fur, and an unusual color scheme. [Inspired by official concept art that never made it into the actual game](https://minecraft.fandom.com/wiki/Minecraft_Earth:Hyper_Rabbit).
 - __Magma Cows:__ cows made of magma, found deep underground. [Inspired by official concept art that never made it into the actual game](https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/30/Magma_Cow_Concept_Art_1.png/revision/latest?cb=20210917155551).
 
@@ -102,9 +103,6 @@ Note that the below list is in no particular order, and is subject to change.
 ### Creature Variants
 - __More mooshroom variants:__ nether-cap, black-cap, goblin-cap, tunnel tube, and spore tree.
 - __More cluckshroom variants:__ nether-cap, black-cap, goblin-cap, tunnel tube, and spore tree.
-
-### Creatures from Minecraft Earth
-- __Bone Spiders__
 
 ### Creatures from Minecraft Dungeons (including DLC)
 - __Wraiths__
