@@ -68,6 +68,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - __Moolips:__ a variant of moobloom with pink flowers instead.
 - __Cluckshrooms:__ underground-dwelling chickens with mushrooms sprouting from their bodies. They come in all the same variants as mooshrooms.
 - __Hyper Rabbits:__ a hyperactive species of rabbit with long whiskers, messy fur, and an unusual color scheme. [Inspired by official concept art that never made it into the actual game](https://minecraft.fandom.com/wiki/Minecraft_Earth:Hyper_Rabbit).
+- __Magma Cows:__ cows made of magma, found deep underground. [Inspired by official concept art that never made it into the actual game](https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/30/Magma_Cow_Concept_Art_1.png/revision/latest?cb=20210917155551).
 
 ### Creatures from Minecraft Dungeons (including DLC)
 - __Tropical Slimes (Hidden Depths):__ cube-shaped chunks of living slime and water, with tropical fish swimming around in their watery layers. They live in oceans.
@@ -103,7 +104,6 @@ Note that the below list is in no particular order, and is subject to change.
 - __More cluckshroom variants:__ nether-cap, black-cap, goblin-cap, tunnel tube, and spore tree.
 
 ### Creatures from Minecraft Earth
-- __Magma Cows__ (concept art only)
 - __Bone Spiders__
 
 ### Creatures from Minecraft Dungeons (including DLC)
