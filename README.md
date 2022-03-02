@@ -21,7 +21,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 ### Civilizations
 - __Villagers:__ a trade-loving, pacifistic civilization.
 - __Illagers:__ a power hungry and evil civilization, though slightly less chaotic than goblins.
-- __Piglins:__ a civilization of lawless, theiving hunters who love a good scrap.
+- __Piglins:__ a civilization of lawless, thieving hunters who love a good scrap.
 
 ### Creatures from Minecraft
 - __Creepers:__ stealthy plantlike quadrupeds with sad looking faces. They explode when they get near.
@@ -31,10 +31,10 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - __Ravagers:__ massive beasts created by illagers to use as beasts of burden and war, and which all seem to have faces suspiciously like those of testificates, humans, dwarves, elves or goblins.
 - __Allays:__ small, friendly nature spirits who love music and dance.
 - __Phantoms:__ legless, winged undead reptiles that lurk at night in swarms, generally in places of death and evil.
-- __Silverfish:__ ugly, swarming, huge bugs (huge for a bug anyway!) with horrid hairy tentrils all over their body. They lurk underground.
+- __Silverfish:__ ugly, swarming, huge bugs (huge for a bug anyway!) with horrid hairy tendrils all over their body. They lurk underground.
 - __Slimes:__ green cubes made of living slime, found in swamps and the underground.
 - __Mooshrooms:__ underground-dwelling cows which have mushrooms growing out of their bodies. They come with many different types of mushroom - red, brown, plump helmet, dimple cup, tower-cap, and fungiwood.
-- __Wardens:__ shhhh! Treat lightly, these things lurk in the deepest darkest caverns, and are blind, but they have excellect abilities to hear and smell to offset that, and are terribly strong.
+- __Wardens:__ shhhh! Treat lightly, these things lurk in the deepest darkest caverns, and are blind, but they have excellent abilities to hear and smell to offset that, and are terribly strong.
 - __Shriekers:__ found in the underground, disturbing these immobile growths of sculk and bone will lead to the appearance of wardens!
 - __Guardians and Elder Guardians:__ ocean-dwelling artifices made of prismarine; they look like one eyed fish with huge spikes, and they can fire beams of electricity from their eyes that both shock and fatigue you. Their elders can fatigue you just with a glance.
 - __Glow Squids:__ little squids that live in pools in deep caverns, and glow.
