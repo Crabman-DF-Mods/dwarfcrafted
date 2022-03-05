@@ -86,6 +86,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - __Prismarine:__ a kind of undersea stone that shifts colors between various hues of blue and green.
 
 ### Plants
+- __Giant Azaleas:__ huge azaleas that grow as large as an oak tree.
 - __Sculk:__ terrible plants that grow in veins deep underground. They possess a morbid presence.
 
 ### Interactions/Magic
@@ -135,7 +136,6 @@ Note that the below list is in no particular order, and is subject to change.
 
 ### Plants
 - __Dark Oak Trees__
-- __Azalea Trees/Bushes:__ these plants technically exist in real life, but these are fantasy versions that grow way bigger.
 - __Spore Blossom__
 - __Dripleaf__
 - __Glowberry Vines__
