@@ -83,7 +83,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - __Stalkers:__ [based off early ravager designs](https://www.minecraft.net/content/dam/minecraft/insider-features/meet-the-ravager/SomeEarlyDesigns.jpeg), these creatures are much like ravagers in origin, but are taller and lankier, with a venomous spit.
 
 ### Stones & Ores
-- __Prismarine:__ a kind of undersea stone that shifts colors between various hues of blue and green.
+- __Prismarine:__ a kind of rare undersea stone that shifts colors between various hues of blue and green.
 
 ### Plants
 - __Giant Azaleas:__ huge azaleas that grow as large as an oak tree.

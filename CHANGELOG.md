@@ -26,6 +26,8 @@ The meaning of each subcategory of change is as follows:
 ### Changed
 - Updated the ingame descriptions of all creepers; they mention the fact that they explode now
 - Wardens and shriekers now heal their bone tissues 20x faster (which is now 2x as fast as normal creatures skin heals)
+- Prismarine is no longer a normal sedimentary ocean layer stone; it now generates in extremely rare single chunks
+- Prismarine is now 8 times more valuable than regular stones
 
 ### Removed
 - Removed dark oak trees from the planned feature list because they apparently exist in real life; Quercus velutina, the eastern black oak
