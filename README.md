@@ -136,7 +136,6 @@ Note that the below list is in no particular order, and is subject to change.
 - __End Stone__
 
 ### Plants
-- __Dark Oak Trees__
 - __Spore Blossom__
 - __Dripleaf__
 - __Glowberry Vines__

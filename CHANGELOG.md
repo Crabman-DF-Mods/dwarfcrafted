@@ -28,6 +28,7 @@ The meaning of each subcategory of change is as follows:
 - Wardens and shriekers now heal their bone tissues 20x faster (which is now 2x as fast as normal creatures skin heals)
 
 ### Removed
+- Removed dark oak trees from the planned feature list because they apparently exist in real life; Quercus velutina, the eastern black oak
 
 ### Fixed
 - Typos in `README.md`
