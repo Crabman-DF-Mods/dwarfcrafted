@@ -87,6 +87,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 
 ### Plants
 - __Giant Azaleas:__ huge azaleas that grow as large as an oak tree.
+- __Glow Lichen:__ a glowing underground fungus.
 - __Sculk:__ terrible plants that grow in veins deep underground. They possess a morbid presence.
 
 ### Interactions/Magic
@@ -139,7 +140,6 @@ Note that the below list is in no particular order, and is subject to change.
 - __Spore Blossom__
 - __Dripleaf__
 - __Glowberry Vines__
-- __Glow Lichen__
 - __Nether Wart__
 - __Crimson Nylium__
 - __Crimson Roots:__ possibly part of the nylium.

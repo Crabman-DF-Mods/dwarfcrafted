@@ -21,6 +21,7 @@ The meaning of each subcategory of change is as follows:
 - Magma cows; cows made of magma, found deep underground
 - Bone Spiders; gigantic spiders with a layer of bone protecting them
 - Giant azaleas; huge azaleas that grow as large as an oak tree
+- Glow lichen; a glowing underground fungus
 
 ### Changed
 - Updated the ingame descriptions of all creepers; they mention the fact that they explode now
