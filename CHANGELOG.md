@@ -34,6 +34,7 @@ The meaning of each subcategory of change is as follows:
 
 ### Fixed
 - Typos in `README.md`
+- Changed code indentation from spaces to tabs in a few places
 
 ## [v1.1.0] - 2022-02-22
 
