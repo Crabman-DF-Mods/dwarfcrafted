@@ -14,9 +14,34 @@ inorganic_mc
 	TODO should probably have a unique color, or be described as shifting
 	[STATE_COLOR:ALL_SOLID:AQUAMARINE]
 
+Netherrack is weird; very soft (like dirt), but has a consistency that requires
+a pickaxe instead of a shovel (in order to harvest). Can be cooked in a furnace to
+make a much harder bricklike material. It's got a lot of similarities to clay.
+[INORGANIC:NETHERRACK]
+	[USE_MATERIAL_TEMPLATE:SOIL_TEMPLATE]
+	[STATE_NAME_ADJ:ALL_SOLID:netherrack][DISPLAY_COLOR:4:4:0][TILE:176]
+	[STATE_COLOR:ALL_SOLID:BURNT_UMBER] bucaneer
+	[MELTING_POINT:15050] magma-safe for sure, even with presumably hotter nether magma
+	[BOILING_POINT:17000]
+	IGNITE_POINT:NONE] have to do something here later so it can burn forever
+	[SOLID_DENSITY:1210] copied from clay
+	[MATERIAL_VALUE:10] to make up for extreme rarity since it's only found in procgen beasties
+	[MATERIAL_REACTION_PRODUCT:FIRED_MAT:INORGANIC:CERAMIC_NETHERWARE]
+
+[INORGANIC:CERAMIC_NETHERWARE]
+	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+	[STATE_NAME_ADJ:ALL:netherware][DISPLAY_COLOR:4:0:0][TILE:'#']
+	[STATE_COLOR:ALL_SOLID:MAROON] gondola
+	[MELTING_POINT:16050] magma-safe
+	[BOILING_POINT:37000]
+	[IS_STONE]
+	[IS_CERAMIC]
+	[MATERIAL_VALUE:15] extreme rarity
+	[BLOCK_NAME:brick:bricks]
+	[NO_STONE_STOCKPILE]
+
 TODO inorganic materials
 - netherite scrap (both ore and metal)
-- netherrack
 - soul sand/soil
 - glowstone
 - blackstone (maybe already has real-world counterpart?)
