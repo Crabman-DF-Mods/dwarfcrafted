@@ -10,6 +10,7 @@ inorganic_mc
 	[AQUIFER]
 	[MELTING_POINT:12070]
 	[SOLID_DENSITY:2400]
+	[IS_STONE]
 	TODO should probably have a unique color, or be described as shifting
 	[STATE_COLOR:ALL_SOLID:AQUAMARINE]
 
