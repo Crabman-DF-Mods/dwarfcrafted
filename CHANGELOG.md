@@ -17,6 +17,16 @@ The meaning of each subcategory of change is as follows:
 ## [Unreleased]
 
 ### Added
+
+### Changed
+
+### Removed
+
+### Fixed
+
+## [v1.2.0] - 2022-03-14
+
+### Added
 - Hyper rabbits; a hyperactive species of rabbit with long whiskers, messy fur, and an unusual color scheme
 - Magma cows; cows made of magma, found deep underground
 - Bone Spiders; gigantic spiders with a layer of bone protecting them
@@ -59,11 +69,13 @@ The meaning of each subcategory of change is as follows:
 - Made creepers move a bit faster, because 1 kph max speed was kind of stupid and just a placeholder I forgot to change; now it's 3 kph crawling, 6 kph walking
 
 ## [v1.0.1] - 2021-12-31
+
 ### Fixed
 - Fixed ravagers and stalkers blood being described as "nothing blood"
 - Fixed the mooshroom, cluckshroom and moolip variants; all of them were broken except mooblooms, the red mooshrooms, and red cluckshrooms, oops!
 
 ## [v1.0.0] - 2021-12-20
+
 ### Added
 - `CHANGELOG.md` file for a changelog, woo!
 - Details in `README.md` about the planned and current magic types
@@ -114,6 +126,7 @@ The meaning of each subcategory of change is as follows:
 - Typo in phantoms alert sound ("hungry screech", when it should have been "hungrily screech")
 
 ## [v0.1.1] - 2021-12-13
+
 ### Changed
 - Formatted `LICENSE` file to be more readable
 - Added sculk to planned plants list in `README.md`
@@ -168,7 +181,8 @@ The initial public release. It contains the following:
 - Partially implemented shulkers
 
 <!--Links-->
-[Unreleased]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.2.0...HEAD
+[v1.2.0]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.1.0...v1.2.0
 [v1.1.0]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.0.1...v1.1.0
 [v1.0.1]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.0.0...v1.0.1
 [v1.0.0]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v0.1.1...v1.0.0
