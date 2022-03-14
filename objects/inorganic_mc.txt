@@ -87,10 +87,3 @@ make a much harder bricklike material. It's got a lot of similarities to clay.
 	[MAX_EDGE:15000]
 	[ITEMS_HARD]
 	[IS_GLASS]
-
-TODO inorganic materials
-- netherite scrap (both ore and metal)
-- soul sand/soil
-- blackstone (maybe already has real-world counterpart?)
-- end stone
-- redstone
