@@ -128,11 +128,9 @@ Note that the below list is in no particular order, and is subject to change.
 
 ### Stones & Ores
 - __Redstone__
-- __Netherrack Gold Ore__
 - __Netherite Scrap__
 - __Soul Sand__
 - __Soul Soil__
-- __Blackstone__
 - __End Stone__
 
 ### Plants

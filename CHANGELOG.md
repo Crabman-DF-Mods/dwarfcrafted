@@ -34,6 +34,8 @@ The meaning of each subcategory of change is as follows:
 
 ### Removed
 - Removed dark oak trees from the planned feature list because they apparently exist in real life; Quercus velutina, the eastern black oak
+- Removed blackstone from planned feature list because it apparently has close enough real-life counterparts that I can use instead
+- Removed nether gold ore from planned feature list because I figure the existing "native gold" will probably be sufficient when the time comes to add the nether and have gold ore in netherrack
 
 ### Fixed
 - Typos in `README.md`
