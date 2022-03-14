@@ -40,12 +40,19 @@ make a much harder bricklike material. It's got a lot of similarities to clay.
 	[BLOCK_NAME:brick:bricks]
 	[NO_STONE_STOCKPILE]
 
+[INORGANIC:NETHER_QUARTZ]
+	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+	[DISPLAY_COLOR:7:7:1][TILE:15][IS_GEM:nether quartz:nether quartzes:OVERWRITE_SOLID][MATERIAL_VALUE:70]
+	ENVIRONMENT_SPEC:NETHERRACK:CLUSTER_SMALL:100] doesn't generate yet
+	[MELTING_POINT:14000] magma-safe
+	[BOILING_POINT:16400]
+	[SOLID_DENSITY:2650] Common to quartz gems
+	[STATE_COLOR:ALL_SOLID:WHITE]
+
 TODO inorganic materials
 - netherite scrap (both ore and metal)
 - soul sand/soil
 - glowstone
 - blackstone (maybe already has real-world counterpart?)
-- nether quartz
-- NATIVE_NETHER_GOLD ore is necessary I think; can't get gold ore in netherrack otherwise
 - end stone
 - redstone

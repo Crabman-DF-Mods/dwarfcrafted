@@ -84,7 +84,8 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 
 ### Stones & Ores
 - __Prismarine:__ a kind of rare undersea stone that shifts colors between various hues of blue and green.
-- __Netherrack:__ oddly soft rock from a hellish plane that can be worked into netherware, much like clay. This material is found only in some titans and forgotten beasts.
+- __Netherrack:__ oddly soft rock from a hellish plane. It can be worked into netherware, much like clay. This stone is found only in some titans and forgotten beasts.
+- __Nether Quartz:__ a gorgeous white quartz from a hellish plane. This gem is found only in some titans and forgotten beasts.
 
 ### Plants
 - __Giant Azaleas:__ huge azaleas that grow as large as an oak tree.
@@ -126,7 +127,6 @@ Note that the below list is in no particular order, and is subject to change.
 
 ### Stones & Ores
 - __Redstone__
-- __Nether Quartz__
 - __Netherrack Gold Ore__
 - __Netherite Scrap__
 - __Soul Sand__

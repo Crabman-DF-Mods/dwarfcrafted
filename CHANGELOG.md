@@ -23,6 +23,7 @@ The meaning of each subcategory of change is as follows:
 - Giant azaleas; huge azaleas that grow as large as an oak tree
 - Glow lichen; a glowing underground fungus
 - Netherrack, which is magma-safe and soft like clay, but can be fired in a kiln into the more solid "netherware". It doesn't generate anywhere as a stone, but titans and the like can be made of it
+- Nether quartz, which is just a valuable white quartz. It doesn't generate anywhere yet, but titans and the like can be made of it
 
 ### Changed
 - Updated the ingame descriptions of all creepers; they mention the fact that they explode now
