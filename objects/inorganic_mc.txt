@@ -27,6 +27,9 @@ make a much harder bricklike material. It's got a lot of similarities to clay.
 	[SOLID_DENSITY:1210] copied from clay
 	[MATERIAL_VALUE:10] to make up for extreme rarity since it's only found in procgen beasties
 	[MATERIAL_REACTION_PRODUCT:FIRED_MAT:INORGANIC:CERAMIC_NETHERWARE]
+	much softer than normal stone
+	[IMPACT_YIELD:60000]
+	[IMPACT_FRACTURE:60000]
 
 [INORGANIC:CERAMIC_NETHERWARE]
 	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
