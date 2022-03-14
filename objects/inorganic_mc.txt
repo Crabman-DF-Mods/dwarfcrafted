@@ -87,3 +87,19 @@ make a much harder bricklike material. It's got a lot of similarities to clay.
 	[MAX_EDGE:15000]
 	[ITEMS_HARD]
 	[IS_GLASS]
+
+[INORGANIC:END_STONE]
+	[USE_MATERIAL_TEMPLATE:STONE_TEMPLATE]
+	[STATE_NAME_ADJ:ALL_SOLID:end stone][DISPLAY_COLOR:7:7:1][TILE:176]
+	[STATE_COLOR:ALL_SOLID:CREAM] deco: 220/224/160
+	[MELTING_POINT:12005] magma-safe I like to imagine, but only just about
+	[BOILING_POINT:14500]
+	[MATERIAL_VALUE:30]
+	[SOLID_DENSITY:3070]
+	[LIQUID_DENSITY:3795]
+	Later will tune these when explosions are added; the goal is for them to be
+	about 3x more resistant to that type of damage.
+	[IMPACT_YIELD:200000]
+	[IMPACT_FRACTURE:200000]
+	[COMPRESSIVE_YIELD:200000]
+	[COMPRESSIVE_FRACTURE:200000]
