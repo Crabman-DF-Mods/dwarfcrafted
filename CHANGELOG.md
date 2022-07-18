@@ -17,6 +17,8 @@ The meaning of each subcategory of change is as follows:
 ## [Unreleased]
 
 ### Added
+- Redstone; decently valuable stone ore found underground. No special properties like in Minecraft yet though sadly, other than being a bit weaker.
+- Redstone cubes; cube-shaped chunks of solid redstone, given life by magic. They are found underground.
 
 ### Changed
 

@@ -72,6 +72,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - __Magma Cows:__ cows made of magma, found deep underground. [Inspired by official concept art that never made it into the actual game](https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/30/Magma_Cow_Concept_Art_1.png/revision/latest?cb=20210917155551).
 
 ### Creatures from Minecraft Dungeons (including DLC)
+- __Redstone Cubes:__ cube-shaped chunks of solid redstone, given life by magic. They are found underground.
 - __Tropical Slimes (Hidden Depths):__ cube-shaped chunks of living slime and water, with tropical fish swimming around in their watery layers. They live in oceans.
 
 ### Creatures from Minecraft Story Mode
@@ -83,6 +84,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - __Stalkers:__ [based off early ravager designs](https://www.minecraft.net/content/dam/minecraft/insider-features/meet-the-ravager/SomeEarlyDesigns.jpeg), these creatures are much like ravagers in origin, but are taller and lankier, with a venomous spit.
 
 ### Stones & Ores
+- __Redstone:__ a valuable, strange sort of red stone that sometimes glows.
 - __Prismarine:__ a kind of rare undersea stone that shifts colors between various hues of blue and green.
 - __Netherrack:__ oddly soft rock from a hellish plane. It can be worked into netherware, much like clay. This stone is found only in some titans and forgotten beasts.
 - __Nether Quartz:__ a gorgeous white quartz from a hellish plane. This gem is found only in some titans and forgotten beasts.
@@ -114,7 +116,6 @@ Note that the below list is in no particular order, and is subject to change.
 - __Wraiths__
 - __Corrupted Cauldrons__
 - __Pink Slimes__
-- __Redstone Cubes__
 - __Redstone Golems__
 - __Redstone Monstrosities__
 - __Mooshroom Monstrosities__
@@ -128,7 +129,6 @@ Note that the below list is in no particular order, and is subject to change.
 - __Anemones (Hidden Depths)__
 
 ### Stones & Ores
-- __Redstone__
 - __Netherite Scrap__
 - __Soul Sand__
 - __Soul Soil__
