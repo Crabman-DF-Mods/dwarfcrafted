@@ -19,6 +19,7 @@ The meaning of each subcategory of change is as follows:
 ### Added
 - Redstone; decently valuable stone ore found underground. No special properties like in Minecraft yet though sadly, other than being a bit weaker.
 - Redstone cubes; cube-shaped chunks of solid redstone, given life by magic. They are found underground.
+- Redstone Golems; magically animated statues made of redstone, with a stone coating. They are found underground.
 
 ### Changed
 
