@@ -60,6 +60,7 @@ creature_mc_illager_golem
 	[SMELL_TRIGGER:10000] cannot smell
     [ALL_ACTIVE]
     [CANOPENDOORS]
+	[SPHERE:EARTH][SPHERE:MINERALS][SPHERE:STRENGTH]
     gave them a biome so you occasionally get a wild golem
 	[UNDERGROUND_DEPTH:3:3]
 	[BIOME:SUBTERRANEAN_CHASM][FREQUENCY:5]
@@ -136,6 +137,7 @@ creature_mc_illager_golem
 	[SMELL_TRIGGER:10000] cannot smell
     [ALL_ACTIVE]
     [CANOPENDOORS]
+	[SPHERE:EARTH][SPHERE:MINERALS][SPHERE:STRENGTH]
     gave them a biome so you occasionally get a wild golem
 	[UNDERGROUND_DEPTH:3:3]
 	[BIOME:SUBTERRANEAN_CHASM][FREQUENCY:5]
