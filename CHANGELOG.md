@@ -22,6 +22,7 @@ The meaning of each subcategory of change is as follows:
 - Redstone Golems; magically animated statues made of redstone, with a stone coating. They are found underground.
 - Redstone Monstrosities; massive, horned, magically animated statues made of redstone, with a stone coating, and the ability to spit fireballs. They are found underground.
 - Mooshroom Monstrosities; redstone monstrosities that are infested with mushrooms.
+- Obsidian Monstrosities; megabeasts which are massive, horned, magically animated statues made of obsidian, with a stone coating, and the ability to spit fireballs.
 
 ### Changed
 

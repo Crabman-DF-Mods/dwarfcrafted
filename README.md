@@ -76,6 +76,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - __Redstone Golems:__ magically animated statues made of redstone, with a stone coating. They are found underground.
 - __Redstone Monstrosities:__ massive, horned, magically animated statues made of redstone, with a stone coating, and the ability to spit fireballs. They are found underground.
 - __Mooshroom Monstrosities:__ redstone monstrosities that are infested with mushrooms.
+- __Obsidian Monstrosities (Arcade):__ megabeasts which are massive, horned, magically animated statues made of obsidian, with a stone coating, and the ability to spit fireballs.
 - __Tropical Slimes (Hidden Depths):__ cube-shaped chunks of living slime and water, with tropical fish swimming around in their watery layers. They live in oceans.
 
 ### Creatures from Minecraft Story Mode
@@ -119,7 +120,6 @@ Note that the below list is in no particular order, and is subject to change.
 - __Wraiths__
 - __Corrupted Cauldrons__
 - __Pink Slimes__
-- __Obsidian Monstrosities (Arcade)__
 - __Squall Golems (Howling Peaks)__
 - __Tempest Golems (Howling Peaks)__
 - __Whisperers (Jungle Awakens)__
