@@ -74,6 +74,7 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 ### Creatures from Minecraft Dungeons (including DLC)
 - __Redstone Cubes:__ cube-shaped chunks of solid redstone, given life by magic. They are found underground.
 - __Redstone Golems:__ magically animated statues made of redstone, with a stone coating. They are found underground.
+- __Redstone Monstrosities:__ massive, horned, magically animated statues made of redstone, with a stone coating, and the ability to spit fireballs. They are found underground.
 - __Tropical Slimes (Hidden Depths):__ cube-shaped chunks of living slime and water, with tropical fish swimming around in their watery layers. They live in oceans.
 
 ### Creatures from Minecraft Story Mode
@@ -117,7 +118,6 @@ Note that the below list is in no particular order, and is subject to change.
 - __Wraiths__
 - __Corrupted Cauldrons__
 - __Pink Slimes__
-- __Redstone Monstrosities__
 - __Mooshroom Monstrosities__
 - __Obsidian Monstrosities (Arcade)__
 - __Squall Golems (Howling Peaks)__
