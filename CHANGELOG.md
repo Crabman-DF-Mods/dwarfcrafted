@@ -23,6 +23,7 @@ The meaning of each subcategory of change is as follows:
 - Redstone Monstrosities; massive, horned, magically animated statues made of redstone, with a stone coating, and the ability to spit fireballs. They are found underground.
 - Mooshroom Monstrosities; redstone monstrosities that are infested with mushrooms.
 - Obsidian Monstrosities; megabeasts which are massive, horned, magically animated statues made of obsidian, with a stone coating, and the ability to spit fireballs.
+- Gave wardens their sonic boom attack. Doesn't work through walls yet, unfortunately.
 
 ### Changed
 - Updated `README.md` link to point to my new DFFD user ID
