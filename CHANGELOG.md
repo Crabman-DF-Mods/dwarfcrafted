@@ -25,6 +25,7 @@ The meaning of each subcategory of change is as follows:
 - Obsidian Monstrosities; megabeasts which are massive, horned, magically animated statues made of obsidian, with a stone coating, and the ability to spit fireballs.
 
 ### Changed
+- Updated `README.md` link to point to my new DFFD user ID
 
 ### Removed
 
