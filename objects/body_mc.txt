@@ -131,6 +131,8 @@ In this mod, I'm interpreting the "mouth" of slimes to actually all be sensory o
 	[BP:L_ANT:left antenna:STP][SMALL][CONTYPE:HEAD][CATEGORY:ANTENNA]
 		[DEFAULT_RELSIZE:200]
 
+[BODYGLOSS:MC_WARDEN_ANTENNAE:antenna:tendril:antennas:tendrils]
+
 [BODY:MC_WARDEN_CHEST_CAVITY]
 	[BP:CAVITY:chest cavity:STP][CONTYPE:UPPERBODY][APERTURE][EMBEDDED][SMALL][CATEGORY:CAVITY]
 		[DEFAULT_RELSIZE:500]

@@ -1328,7 +1328,7 @@ creature_mc_overworld
 				[TLCM_NOUN:eyes:PLURAL]
 
 [CREATURE:MC_WARDEN]
-    [DESCRIPTION:A massive, blind humanoid with sensitive antennae that light up and rattle in response to vibrations.  Its torso has an exposed ribcage surrounding a cavity filled with the souls of the dead.  As it becomes certain that it has discovered a target, the glow in its chest pulsates with a deep throbbing sound.]
+    [DESCRIPTION:A massive, blind humanoid with sensitive tentrils that light up and rattle in response to vibrations.  Its torso has an exposed ribcage surrounding a cavity filled with the souls of the dead.  As it becomes certain that it has discovered a target, the glow in its chest pulsates with a deep throbbing sound.]
     [NAME:warden:wardens:warden]
 	[CASTE_NAME:warden:wardens:warden]
 	[CREATURE_TILE:'W'][COLOR:0:0:0]
@@ -1354,7 +1354,7 @@ creature_mc_overworld
 
 	[PREFSTRING:eerie groans]
     [PREFSTRING:roars]
-    [PREFSTRING:rattling antennae]
+    [PREFSTRING:rattling tendrils]
     [PREFSTRING:pulsating heartbeat]
     [PREFSTRING:persistence]
 	[PREFSTRING:strength]
@@ -1365,6 +1365,7 @@ creature_mc_overworld
     [SOUND:ALERT:100:1000:NONE:roar:roars:a soul-rattling roar]
 
 	[BODY:HUMANOID:HUMANOID_JOINTS:SPINE:SKULL:3FINGERS:3TOES:MOUTH:RIBCAGE_EXTERNAL:ANTENNAE]
+	[BODYGLOSS:MC_WARDEN_ANTENNAE]
 
 	[USE_MATERIAL_TEMPLATE:SCULK:SCULK_TEMPLATE]
 	[TISSUE:SCULK]
@@ -1451,7 +1452,7 @@ creature_mc_overworld
 	 [PLUS_TL_GROUP:BY_CATEGORY:FINGER:SCULK]
 	 [PLUS_TL_GROUP:BY_CATEGORY:MOUTH:SCULK]
         [TL_COLOR_MODIFIER:TEAL:1]
-            [TLCM_NOUN:antennae, hands and mouth:PLURAL]
+            [TLCM_NOUN:mouth, hands and tendrils:PLURAL]
 
 [CREATURE:MC_SHRIEKER]
 	[DESCRIPTION:A large growth made of sculk, with jagged, jawlike bones sticking out of the top.  In between the bony jaws swirling blue souls can be seen within.  If it hears anything, it will shriek loudly, potentialy attracting unwanted attention to whoever disturbs it.]

@@ -31,6 +31,7 @@ The meaning of each subcategory of change is as follows:
 ### Removed
 
 ### Fixed
+- Wardens now have "tendrils" instead of antennae
 
 ## [v1.2.0] - 2022-03-14
 
