@@ -403,7 +403,7 @@ unique to them).
 			[CDI:TARGET_RANGE:B:25]
 			[CDI:BP_REQUIRED:BY_TYPE:GRASP]
 			[CDI:USAGE_HINT:ATTACK]
-			[CDI:VERB:gestures:gestures:NA]
+			[CDI:VERB:gesture:gestures:NA]
 			[CDI:MAX_TARGET_NUMBER:B:1]
 			[CDI:WAIT_PERIOD:80]
 		TODO more general telekinesis

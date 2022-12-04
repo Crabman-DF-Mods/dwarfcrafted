@@ -32,6 +32,7 @@ The meaning of each subcategory of change is as follows:
 
 ### Fixed
 - Wardens now have "tendrils" instead of antennae
+- Typo in illager mage; first person use of their power said "gestures" instead of "gesture"
 
 ## [v1.2.0] - 2022-03-14
 
