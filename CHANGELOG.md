@@ -1,10 +1,10 @@
 # Changelog
 This file will document changes to this project.
 
-Unfortunately, [Semantic Versioning](https://semver.org/) is not compatible with Dwarf Fortress raw mods because most changes would be `MAJOR` save incompatible changes, so this project uses a custom versioning convention instead; for a given version number `MAJOR.MINOR.PATCH`, increment the:
-- `MAJOR` version for a large overhaul of many existing objects, or the addition of a new class of features/objects that were previously impossible. This would usually correspond with new major DF releases, and therefore is likely not compatible with existing saves, or even previous DF versions.
-- `MINOR` version for new objects being added or large changes to existing objects; likely not save compatible.
-- `PATCH` version for bug fixes, _small_ edits to objects, code cleanups, or documentation changes. Almost always compatible with previous saves.
+Unfortunately, [Semantic Versioning](https://semver.org/) is not suitable for Dwarf Fortress raw mods because too many changes would be `MAJOR` save incompatible changes, so this project uses a custom versioning convention instead; for a given version number `RELEASE.MAJOR.MINOR`, increment the:
+- `RELEASE` version for updates that require a new version of DF. Not compatible with existing saves.
+- `MAJOR` version for updates that are _not_ save-compatible, and thus require a new world/save file.
+- `MINOR` version for updates that _are_ save-compatible, and can be applied to existing worlds/save files.
 
 The "Unreleased" heading is for changes that are in the repo but not in any published version (they are probably not ready yet).
 
@@ -29,6 +29,7 @@ The meaning of each subcategory of change is as follows:
 - Gave wardens their sonic boom attack. Doesn't work through walls yet, unfortunately.
 
 ### Changed
+- Updated the mod's versioning conventions
 - Updated `README.md` link to point to my new DFFD user ID
 - Edited one of the `README.md` starting paragraphs to reflect that the DF RAW LS is out of beta now
 
