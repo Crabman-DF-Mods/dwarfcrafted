@@ -25,6 +25,7 @@ The meaning of each subcategory of change is as follows:
 - Obsidian Monstrosities; megabeasts which are massive, horned, magically animated statues made of obsidian, with a stone coating, and the ability to spit fireballs.
 - Corrupted Cauldrons; massive cauldrons full of noxious purple fluid. They can expel from within bursts of purple fire, or monsters made of pink slime.
 - Pink Slimes; liquid monsters from the insides of corrupted cauldrons. They come shaped as blobs, giant blobs, humanoids, spiders, or in winged form.
+- Added corrupted cauldrons, redstone cubes, redstone golems, and redstone monstrosities to the illager civ
 - Gave wardens their sonic boom attack. Doesn't work through walls yet, unfortunately.
 
 ### Changed
