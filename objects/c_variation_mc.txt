@@ -2,6 +2,23 @@ c_variation_mc
 
 [OBJECT:CREATURE_VARIATION]
 
+[CREATURE_VARIATION:CORRUPTED_CAULDRON_CASTE]
+	[CV_NEW_TAG:CASTE:!ARG1]
+		[CV_NEW_TAG:POP_RATIO:!ARG3]
+		[CV_NEW_TAG:DESCRIPTION:A large !ARG2 cauldron attached to a set of !ARG2 wheels. It is filled with a noxious glowing liquid, visible through a pair of eyes and a mouth. The knowledge of how to create these accursed cauldrons has been lost to time.]
+		[CV_NEW_TAG:CASTE_NAME:corrupted !ARG2 cauldron:corrupted !ARG2 cauldrons:corrupted !ARG2 cauldron]
+		[CV_NEW_TAG:TISSUE:!ARG1]
+			[CV_NEW_TAG:TISSUE_NAME:!ARG2:!ARG2]
+			[CV_NEW_TAG:TISSUE_MATERIAL:INORGANIC:!ARG1]
+			[CV_NEW_TAG:MUSCULAR]
+			[CV_NEW_TAG:FUNCTIONAL]
+			[CV_NEW_TAG:STRUCTURAL]
+			[CV_NEW_TAG:RELATIVE_THICKNESS:1]
+			[CV_NEW_TAG:CONNECTS]
+			[CV_NEW_TAG:TISSUE_SHAPE:LAYER]
+		[CV_NEW_TAG:TISSUE_LAYER:BY_CATEGORY:ALL:!ARG1]
+		[CV_NEW_TAG:ITEMCORPSE:TOOL:ITEM_TOOL_MC_GIANT_CAULDRON:INORGANIC:!ARG1]
+
 [CREATURE_VARIATION:MOOSHROOM_MONSTROSITY_CASTE]
 	[CV_NEW_TAG:CASTE:!ARG1]
 		[CV_NEW_TAG:CASTE_NAME:!ARG2 mooshroom monstrosity:!ARG2 mooshroom monstrosities:!ARG2 mooshroom monstrosity]

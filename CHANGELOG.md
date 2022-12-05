@@ -23,6 +23,8 @@ The meaning of each subcategory of change is as follows:
 - Redstone Monstrosities; massive, horned, magically animated statues made of redstone, with a stone coating, and the ability to spit fireballs. They are found underground.
 - Mooshroom Monstrosities; redstone monstrosities that are infested with mushrooms.
 - Obsidian Monstrosities; megabeasts which are massive, horned, magically animated statues made of obsidian, with a stone coating, and the ability to spit fireballs.
+- Corrupted Cauldrons; massive cauldrons full of noxious purple fluid. They can expel from within bursts of purple fire, or monsters made of pink slime.
+- Pink Slimes; liquid monsters from the insides of corrupted cauldrons. They come shaped as blobs, giant blobs, humanoids, spiders, or in winged form.
 - Gave wardens their sonic boom attack. Doesn't work through walls yet, unfortunately.
 
 ### Changed

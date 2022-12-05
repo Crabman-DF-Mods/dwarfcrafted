@@ -72,6 +72,8 @@ Copy-paste all files this mod's `/objects` folder into the `/raw/objects/` folde
 - __Magma Cows:__ cows made of magma, found deep underground. [Inspired by official concept art that never made it into the actual game](https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/30/Magma_Cow_Concept_Art_1.png/revision/latest?cb=20210917155551).
 
 ### Creatures from Minecraft Dungeons (including DLC)
+- __Corrupted Cauldrons:__ massive cauldrons full of noxious purple fluid. They can expel from within bursts of purple fire, or monsters made of pink slime.
+- __Pink Slimes:__ liquid monsters from the insides of corrupted cauldrons. They come shaped as blobs, giant blobs, humanoids, spiders, or in winged form.
 - __Redstone Cubes:__ cube-shaped chunks of solid redstone, given life by magic. They are found underground.
 - __Redstone Golems:__ magically animated statues made of redstone, with a stone coating. They are found underground.
 - __Redstone Monstrosities:__ massive, horned, magically animated statues made of redstone, with a stone coating, and the ability to spit fireballs. They are found underground.
@@ -118,8 +120,6 @@ Note that the below list is in no particular order, and is subject to change.
 
 ### Creatures from Minecraft Dungeons (including DLC)
 - __Wraiths__
-- __Corrupted Cauldrons__
-- __Pink Slimes__
 - __Squall Golems (Howling Peaks)__
 - __Tempest Golems (Howling Peaks)__
 - __Whisperers (Jungle Awakens)__
