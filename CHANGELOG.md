@@ -17,6 +17,16 @@ The meaning of each subcategory of change is as follows:
 ## [Unreleased]
 
 ### Added
+
+### Changed
+
+### Removed
+
+### Fixed
+
+## [v1.3.0] - 2022-12-05
+
+### Added
 - Redstone; decently valuable stone ore found underground. No special properties like in Minecraft yet though sadly, other than being a bit weaker.
 - Redstone cubes; cube-shaped chunks of solid redstone, given life by magic. They are found underground.
 - Redstone Golems; magically animated statues made of redstone, with a stone coating. They are found underground.
@@ -196,7 +206,8 @@ The initial public release. It contains the following:
 - Partially implemented shulkers
 
 <!--Links-->
-[Unreleased]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.2.0...HEAD
+[Unreleased]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.3.0...HEAD
+[v1.3.0]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.2.0...v1.3.0
 [v1.2.0]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.1.0...v1.2.0
 [v1.1.0]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.0.1...v1.1.0
 [v1.0.1]: https://github.com/Crabman-DF-Mods/dwarfcrafted/compare/v1.0.0...v1.0.1
