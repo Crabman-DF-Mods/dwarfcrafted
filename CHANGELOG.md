@@ -23,6 +23,7 @@ The meaning of each subcategory of change is as follows:
 
 ### Removed
 - Removed the body parts `2EYES_SOCKET_SIGHT`, `RIBCAGE_EXTERNAL`, `HUMANOID_SKELETON`, `ANTENNAE` `9TENTACLES`, and `MC_4EYES_STACKED`
+- For DF `50.01`, removed the entity tokens `UNDEAD_CANDIDATE`, `PERMITTED_JOB:ARCHITECT`, and `LAND_HOLDER_TRIGGER`
 
 ### Fixed
 
