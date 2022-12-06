@@ -17,6 +17,7 @@ The meaning of each subcategory of change is as follows:
 ## [Unreleased]
 
 ### Added
+- Added vanilla `50.01`'s `NAME_BUILDING_HOSPITAL` symbol for both all civs
 
 ### Changed
 - Adjusted the obsidian monstrosity in the backend for compatability with a new dependency
