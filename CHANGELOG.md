@@ -20,6 +20,7 @@ The meaning of each subcategory of change is as follows:
 - Added vanilla `50.01`'s `NAME_BUILDING_HOSPITAL` symbol for both all civs
 - Gave monarchs and tradespersons a gender neutral name (I don't know what this does, but dwarves have this change too in vanilla `50.01`)
 - Added "messenger" position for villager civs
+- Descriptions for some positions of villager civs
 
 ### Changed
 - Adjusted the obsidian monstrosity in the backend for compatability with a new dependency
