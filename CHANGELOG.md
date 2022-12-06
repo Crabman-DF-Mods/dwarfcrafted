@@ -18,6 +18,7 @@ The meaning of each subcategory of change is as follows:
 
 ### Added
 - Added vanilla `50.01`'s `NAME_BUILDING_HOSPITAL` symbol for both all civs
+- Gave monarchs and tradespersons a gender neutral name (I don't know what this does, but dwarves have this change too in vanilla `50.01`)
 
 ### Changed
 - Adjusted the obsidian monstrosity in the backend for compatability with a new dependency

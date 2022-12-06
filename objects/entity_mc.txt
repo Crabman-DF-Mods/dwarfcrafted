@@ -406,6 +406,7 @@ ROAD, SIEGE, SITE, TEMPLE, TUNNEL, VESSEL, WALL, WAR
 	will go to war with each other; ideally this civ type would have no monarch,
 	or other centralization, just site-specific "mayors" at most.
 	[POSITION:MONARCH]
+		[NAME:monarch:monarchs]
 		[NAME_MALE:king:kings]
 		[NAME_FEMALE:queen:queens]
 		[NUMBER:1]
@@ -502,6 +503,7 @@ ROAD, SIEGE, SITE, TEMPLE, TUNNEL, VESSEL, WALL, WAR
 		[DUTY_BOUND]
 		[REQUIRED_OFFICE:1]
 	[POSITION:TRADESPERSON]
+		[NAME:head trader:head trader]
 		[NAME_MALE:head tradesman:head tradesmen]
 		[NAME_FEMALE:head tradeswoman:head tradeswomen]
 		[SITE]
