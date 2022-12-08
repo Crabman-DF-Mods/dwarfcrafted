@@ -861,6 +861,3 @@ and move these guys all there.
         [MENT_ATT_RANGE:WILLPOWER:150:600:800:900:1000:1100:1500]               -
         [MENT_ATT_RANGE:EMPATHY:0:400:600:750:800:900:1100]                     --
         [MENT_ATT_RANGE:SOCIAL_AWARENESS:0:100:200:300:400:450:500]             ---
-        
-[CREATURE:MC_WRAITH] TODO after release
-	[DOES_NOT_EXIST]
