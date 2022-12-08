@@ -240,7 +240,7 @@ for dimensions and biomes that are bodies of water.
 
     TODO with myth/magic: regeneration ability; disabled by water and fire
 	[BABY:1]
-	[CHILD:12]
+	[CHILD:18]
 	[ALL_ACTIVE]
     [ODOR_LEVEL:0]
 	[SMELL_TRIGGER:0] maximum smelling ability!

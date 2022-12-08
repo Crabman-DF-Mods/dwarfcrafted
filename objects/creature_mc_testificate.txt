@@ -191,7 +191,7 @@ creature_mc_testificate
 		[ATTACK_PRIORITY:SECOND]
 		[ATTACK_FLAG_CANLATCH]
 	[BABY:1]
-	[CHILD:12]
+	[CHILD:18]
 	[EQUIPS]
 	[DIURNAL]
 	[SMELL_TRIGGER:20] keener than humans surely
