@@ -21,6 +21,7 @@ The meaning of each subcategory of change is as follows:
 - Gave monarchs and tradespersons a gender neutral name (I don't know what this does, but dwarves have this change too in vanilla `50.01`)
 - Added "messenger" position for villager civs
 - Descriptions for some positions of villager civs
+- Illager civs now have access to giant cauldrons
 
 ### Changed
 - Adjusted the obsidian monstrosity in the backend for compatability with a new dependency
