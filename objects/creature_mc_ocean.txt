@@ -504,7 +504,7 @@ creature_mc_ocean
 	[SPHERE:STRENGTH]
 	[FREQUENCY:10]
 	[MEGABEAST][DIFFICULTY:11] despite being 2x the size, 30 of them still lost to a bronze colossus
-		[ATTACK_TRIGGER:80:10000:100000]
+		[ATTACK_TRIGGER:3:3:3]
 	[PREFSTRING:height]
 	[BODY_SIZE:0:0:40000000] same ratio as human to bronze colossus
 	[APPLY_CREATURE_VARIATION:STANDARD_BIPED_GAITS:900:711:521:293:1900:2900] 30 kph

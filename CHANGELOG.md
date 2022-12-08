@@ -24,6 +24,7 @@ The meaning of each subcategory of change is as follows:
 
 ### Changed
 - Adjusted the obsidian monstrosity in the backend for compatability with a new dependency
+- Updated `ATTACK_TRIGGER` format for `50.01`
 
 ### Removed
 - Removed the body parts `2EYES_SOCKET_SIGHT`, `RIBCAGE_EXTERNAL`, `HUMANOID_SKELETON`, `ANTENNAE` `9TENTACLES`, and `MC_4EYES_STACKED`

@@ -448,7 +448,7 @@ for dimensions and biomes that are bodies of water.
 	[FANCIFUL]
 	[LARGE_PREDATOR]
 	[MEGABEAST][DIFFICULTY:10]
-		[ATTACK_TRIGGER:80:10000:100000]
+		[ATTACK_TRIGGER:3:3:3]
 	[SPHERE:DARKNESS][SPHERE:REBIRTH] rebirth cause of the respawning, and also the egg drop
 	[NOFEAR][NOEXERT]
 	[BUILDINGDESTROYER:2]
