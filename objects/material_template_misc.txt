@@ -1,4 +1,4 @@
-material_template_mc
+material_template_misc
 
 [OBJECT:MATERIAL_TEMPLATE]
 

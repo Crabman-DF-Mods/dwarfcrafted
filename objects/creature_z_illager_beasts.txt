@@ -1,4 +1,4 @@
-creature_z_mc_illager_beasts
+creature_z_illager_beasts
 
 ^^^^^^
 I put the weird "z" there and in title to make sure all the creatures being copied from are

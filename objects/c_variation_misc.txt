@@ -1,4 +1,4 @@
-c_variation_mc
+c_variation_misc
 
 [OBJECT:CREATURE_VARIATION]
 

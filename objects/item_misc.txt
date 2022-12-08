@@ -1,4 +1,4 @@
-item_tool_mc
+item_misc
 
 [OBJECT:ITEM]
 

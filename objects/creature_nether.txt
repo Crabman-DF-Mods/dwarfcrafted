@@ -1,4 +1,4 @@
-creature_mc_nether
+creature_nether
 
 [OBJECT:CREATURE]
 

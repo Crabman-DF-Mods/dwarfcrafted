@@ -1,4 +1,4 @@
-inorganic_mc
+inorganic_misc
 
 [OBJECT:INORGANIC]
 

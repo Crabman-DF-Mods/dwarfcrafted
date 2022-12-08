@@ -1,4 +1,4 @@
-creature_mc_ocean
+creature_ocean
 
 [OBJECT:CREATURE]
 

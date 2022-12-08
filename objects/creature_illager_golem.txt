@@ -1,4 +1,4 @@
-creature_mc_illager_golem
+creature_illager_golem
 
 [OBJECT:CREATURE]
 

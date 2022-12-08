@@ -1,4 +1,4 @@
-creature_mc_ender
+creature_ender
 
 [OBJECT:CREATURE]
 

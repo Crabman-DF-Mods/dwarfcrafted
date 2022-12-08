@@ -1,4 +1,4 @@
-creature_mc_golem
+creature_golem
 
 [OBJECT:CREATURE]
 

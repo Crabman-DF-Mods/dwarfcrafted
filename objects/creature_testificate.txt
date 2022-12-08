@@ -1,4 +1,4 @@
-creature_mc_testificate
+creature_testificate
 
 [OBJECT:CREATURE]
 
