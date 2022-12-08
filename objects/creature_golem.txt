@@ -7,7 +7,7 @@ making them breedable (maybe DFhack to allow them to be created, but nothing els
 When Myth&Magic comes, it should be possible to have them properly be a part of the
 villager/illager civs as magical constructs.
 
-[CREATURE:MC_GOLEM_IRON]
+[CREATURE:GOLEM_IRON]
     [DESCRIPTION:A large magically animated statue of a humanoid, made of iron. The knowledge of how to create these golems has been lost to time.]
 	[CREATURE_CLASS:GOLEM]
     [NAME:iron golem:iron golems:iron golem]
@@ -70,8 +70,8 @@ villager/illager civs as magical constructs.
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[SWIMS_LEARNED]
 
-[CREATURE:MC_GOLEM_FURNACE] maybe should be a caste of iron golem instead?
-    [COPY_TAGS_FROM:MC_GOLEM_IRON]
+[CREATURE:GOLEM_FURNACE] maybe should be a caste of iron golem instead?
+    [COPY_TAGS_FROM:GOLEM_IRON]
 	[CV_REMOVE_TAG:DESCRIPTION]
 	[CV_REMOVE_TAG:NAME]
 	[CV_REMOVE_TAG:CASTE_NAME]
@@ -115,7 +115,7 @@ villager/illager civs as magical constructs.
  		[CDI:MAX_TARGET_NUMBER:C:1]
  		[CDI:WAIT_PERIOD:400]
 
-[CREATURE:MC_GOLEM_SNOW]
+[CREATURE:GOLEM_SNOW]
     [DESCRIPTION:A magically animated snowman, wearing over its head a pumpkin which never seems to rot and possesses a face. It leaves behind an endless trail of snow wherever it moves, and can throw snowballs taken from its own body without running out of material. The knowledge of how to create these golems has been lost to time.]
 	[CREATURE_CLASS:GOLEM]
     [NAME:snow golem:snow golems:snow golem]
@@ -220,7 +220,7 @@ villager/illager civs as magical constructs.
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 
-[CREATURE:MC_GOLEM_MELON]
+[CREATURE:GOLEM_MELON]
 	[DESCRIPTION:A magically animated snowman with instead of a head, a watermelon which never seems to rot and posesses a face. It leaves behind an endless trail of snow wherever it moves, and can throw snowballs taken from its own body without running out of material. The knowledge of how to create these golems has been lost to time.]
 	[CREATURE_CLASS:GOLEM]
     [NAME:melon golem:melon golems:melon golem]
@@ -326,7 +326,7 @@ villager/illager civs as magical constructs.
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 
-[CREATURE:MC_GOLEM_COPPER]
+[CREATURE:GOLEM_COPPER]
 	TODO when DF supports, make lightning rod on head work and "electrify" the golem
     [DESCRIPTION:A small, magically animated statue made of copper, resembling a simple figurine. It has a strange rod attached to its head. The knowledge of how to create these golems has been lost to time.]
 	[CREATURE_CLASS:GOLEM]

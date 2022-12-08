@@ -2,7 +2,7 @@ creature_ocean
 
 [OBJECT:CREATURE]
 
-[CREATURE:MC_GUARDIAN]
+[CREATURE:PRISMARINE_GUARDIAN]
 	[DESCRIPTION:An artifice resembling a cyclopean fish, created to guard ancient structures deep in the ocean with deadly magic. It is made of prismarine and is covered in large, retractable spikes.]
 	[NAME:prismarine guardian:prismarine guardians:prismarine guardian]
 	[CREATURE_TILE:'g'][COLOR:3:0:0]
@@ -24,7 +24,7 @@ creature_ocean
 	[SOUND:ALERT:100:1000:VOCALIZATION:ring like waterlogged bell:rings like waterlogged bell:a resounding sound]
 	[SOUND:ALERT:100:1000:VOCALIZATION:moan eerily:makes an otherworldly moan:an otherwordly moan]
 	[SOUND:PEACEFUL_INTERMITTENT:25:10000:VOCALIZATION:moan eerily:makes an otherworldly moan:an otherwordly moan]
-	[BODY:BODY_WITH_HEAD_FLAG:TAIL:1EYE:BRAIN:MC_GUARDIAN_SPIKES]
+	[BODY:BODY_WITH_HEAD_FLAG:TAIL:1EYE:BRAIN:PRISMARINE_GUARDIAN_SPIKES]
 	[USE_MATERIAL_TEMPLATE:BRAIN:BRAIN_TEMPLATE]
 	[USE_MATERIAL_TEMPLATE:EYE:EYE_TEMPLATE]
 
@@ -151,7 +151,7 @@ creature_ocean
 		[CASTE_TILE:'G']
 		[CASTE_COLOR:7:0:0]
 		[BODY_SIZE:0:0:320000]
-		[CAN_DO_INTERACTION:MC_GUARDIAN_CURSE]
+		[CAN_DO_INTERACTION:PRISMARINE_GUARDIAN_CURSE]
 			[CDI:ADV_NAME:Curse]
 			[CDI:TARGET:A:LINE_OF_SIGHT]
 			[CDI:TARGET_RANGE:A:50]
@@ -167,7 +167,7 @@ creature_ocean
 			[TL_COLOR_MODIFIER:PUPIL_EYE_WHITE:1]
 				[TLCM_NOUN:eye:SINGULAR]
 
-[CREATURE:MC_SLIME_TROPICAL]
+[CREATURE:SLIME_TROPICAL]
 	[DESCRIPTION:A blob of slime with an outer layer composed of water, in which fish often live. It has sensory organs embedded in its core, which resemble eyes and a mouth.]
 	[NAME:tropical slime:tropical slimes:tropical slime]
 	[CASTE_NAME:tropical slime:tropical slimes:tropical slime]
@@ -188,9 +188,9 @@ creature_ocean
 	[PREFSTRING:ability to host living fish]
 	[PREFSTRING:watery composition]
 	
-	[BODY:BODY_WITH_HEAD_FLAG:MC_SLIME_OUTER_LAYER:3EYES]
-	[BODYGLOSS:MC_SLIME_MOUTH]
-	[BODY_DETAIL_PLAN:MC_SLIME_LAYER_POSITIONS]
+	[BODY:BODY_WITH_HEAD_FLAG:SLIME_OUTER_LAYER:3EYES]
+	[BODYGLOSS:SLIME_MOUTH]
+	[BODY_DETAIL_PLAN:SLIME_LAYER_POSITIONS]
 	[BODY_DETAIL_PLAN:HUMANOID_HEAD_POSITIONS]
 	[RELSIZE:BY_CATEGORY:EYE:200] because of the size of BODY_WITH_HEAD_FLAG
 	[RELSIZE:BY_TOKEN:EYE:20] the mouth part is smaller
@@ -255,7 +255,7 @@ creature_ocean
 	[CASTE:FISH_PUFFER_WHITE_SPOTTED]
 		[ITEMCORPSE:FISH_RAW:NO_SUBTYPE:FISH_PUFFER_WHITE_SPOTTED:ALL]
 
-[CREATURE:MC_GLOW_SQUID]
+[CREATURE:GLOW_SQUID]
 	[DESCRIPTION:A tiny, glowing cave vermin with eight arms and two tentacles.  It can spray ink to confuse predators, and it has many glowing spots on its body and head that obscure where its real eyes are.]
 	[NAME:glow squid:glow squids:glow squid]
 	[CASTE_NAME:glow squid:glow squids:glow squid]
@@ -335,7 +335,7 @@ creature_ocean
 		[SELECT_MATERIAL:ALL]
 			[MULTIPLY_VALUE:3]
 
-[CREATURE:MC_BARNACLE] Mob A from 2017 vote
+[CREATURE:BARNACLE] Mob A from 2017 vote
 	[DESCRIPTION:A monster that dwells in the ocean depths; it ensnares prey with its long tongue and drags them down into its 4-hinged maw.]
 	[NAME:barnacle:barnacles:barnacle]
 	[CASTE_NAME:barnacle:barnacles:barnacle]
@@ -416,7 +416,7 @@ creature_ocean
 			[TL_COLOR_MODIFIER:BLACK:1]
 				[TLCM_NOUN:eyes:PLURAL]
 
-[CREATURE:MC_GOLEM_PRISMARINE]
+[CREATURE:GOLEM_PRISMARINE]
     [DESCRIPTION:A large magically animated statue made out of prismarine. It resembles a humanoid with a large beard composed of tentacles surrounding its mouth. It was created to guard ancient structures deep in the ocean.]
 	[CREATURE_CLASS:GOLEM]
     [NAME:prismarine solider:prismarine soliders:prismarine solider]
@@ -482,8 +482,8 @@ creature_ocean
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[SWIMS_INNATE]
 
-[CREATURE:MC_COLOSSUS_PRISMARINE]
-	[COPY_TAGS_FROM:MC_GOLEM_PRISMARINE]
+[CREATURE:COLOSSUS_PRISMARINE]
+	[COPY_TAGS_FROM:GOLEM_PRISMARINE]
 	[CV_REMOVE_TAG:DESCRIPTION]
 	[CV_REMOVE_TAG:NAME]
 	[CV_REMOVE_TAG:CASTE_NAME]

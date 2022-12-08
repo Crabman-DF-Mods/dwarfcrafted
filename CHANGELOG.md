@@ -26,6 +26,7 @@ The meaning of each subcategory of change is as follows:
 - Adjusted the obsidian monstrosity in the backend for compatability with a new dependency
 - Updated `ATTACK_TRIGGER` format for `50.01`
 - Updated ages for testificates/illagers and endermen so they become adults at 18 (to match vanilla `50.01`)
+- Changed the names of most objects (mostly removing the `MC_` prefix)
 
 ### Removed
 - Removed the body parts `2EYES_SOCKET_SIGHT`, `RIBCAGE_EXTERNAL`, `HUMANOID_SKELETON`, `ANTENNAE` `9TENTACLES`, and `MC_4EYES_STACKED`

@@ -2,7 +2,7 @@ creature_testificate
 
 [OBJECT:CREATURE]
 
-[CREATURE:MC_TESTIFICATE]
+[CREATURE:TESTIFICATE]
 	[DESCRIPTION:A bald humanoid with a tall head and massive nose that dangles as far down as its chin.]
 	[NAME:testificate:testificates:testificate]
 	[CASTE_NAME:testificate:testificates:testificate]
@@ -271,8 +271,8 @@ At first I just had them be the same species, with different culture, since that
 But I decided it can probably wait till mythgen when I can truly make them the same species,
 but with magic altering them (causing the grey skin and hair, which is basically the only thing
 unique to them).
-[CREATURE:MC_ILLAGER]
-	[COPY_TAGS_FROM:MC_TESTIFICATE]
+[CREATURE:ILLAGER]
+	[COPY_TAGS_FROM:TESTIFICATE]
 	[CV_REMOVE_TAG:NAME]
 	[CV_REMOVE_TAG:CASTE_NAME]
 	[CV_REMOVE_TAG:CREATURE_TILE]
@@ -385,10 +385,10 @@ unique to them).
 	[SELECT_ADDITIONAL_CASTE:EVOKER_MALE]
 	[POP_RATIO:1]
 		[CASTE_NAME:evoker:evokers:evoker]
-		[CAN_DO_INTERACTION:MC_SUMMON_VEX]
+		[CAN_DO_INTERACTION:SUMMON_VEX]
 			[CDI:ADV_NAME:Summon vex]
 			[CDI:WAIT_PERIOD:500]
-		[CAN_DO_INTERACTION:MC_SUMMON_EVOKER_FANG]
+		[CAN_DO_INTERACTION:SUMMON_EVOKER_FANG]
 			[CDI:ADV_NAME:Summon fangs]
 			[CDI:USAGE_HINT:DEFEND]
 			[CDI:WAIT_PERIOD:1000]
@@ -397,7 +397,7 @@ unique to them).
 	[SELECT_ADDITIONAL_CASTE:MAGE_MALE]
 	[POP_RATIO:1]
 		[CASTE_NAME:mage:mages:mage] ugh I hate how generic they made this name
-		[CAN_DO_INTERACTION:MC_MAGE_PROPEL]
+		[CAN_DO_INTERACTION:MAGE_PROPEL]
 			[CDI:ADV_NAME:Propel away]
 			[CDI:TARGET:B:LINE_OF_SIGHT]
 			[CDI:TARGET_RANGE:B:25]
@@ -409,8 +409,8 @@ unique to them).
 		TODO more general telekinesis
 
 TODO will probably move these to another file eventually
-[CREATURE:MC_VEX]
-    [COPY_TAGS_FROM:MC_ALLAY]
+[CREATURE:VEX]
+    [COPY_TAGS_FROM:ALLAY]
 	[CV_REMOVE_TAG:DESCRIPTION]
 	[CV_REMOVE_TAG:NAME]
 	[CV_REMOVE_TAG:GENERAL_CHILD_NAME]
@@ -490,7 +490,7 @@ TODO will probably move these to another file eventually
         [TL_COLOR_MODIFIER:WHITE:1]
             [TLCM_NOUN:eyes:PLURAL]
 
-[CREATURE:MC_EVOKER_FANG]
+[CREATURE:EVOKER_FANG]
 	[DESCRIPTION:A construct of magic with a large, alligator-like set of snapping jaws.]
 	[NAME:fang:fangs:fang]
 	[CASTE_NAME:fang:fangs:fang]

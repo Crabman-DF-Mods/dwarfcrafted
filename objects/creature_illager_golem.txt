@@ -2,7 +2,7 @@ creature_illager_golem
 
 [OBJECT:CREATURE]
 
-[CREATURE:MC_CAULDRON]
+[CREATURE:CORRUPTED_CAULDRON]
     [NAME:corrupted cauldron:corrupted cauldrons:corrupted cauldron]
 	[CREATURE_TILE:238][COLOR:0:0:0]
 	[FREQUENCY:1]
@@ -19,7 +19,7 @@ creature_illager_golem
 	[SMELL_TRIGGER:10000] cannot smell
 	[PREFSTRING:frothing magical liquid]
 	[PREFSTRING:grim expressions]
-	[BODY:MC_CAULDRON:MOUTH:2EYES]
+	[BODY:CORRUPTED_CAULDRON:MOUTH:2EYES]
 	[BODY_DETAIL_PLAN:STANDARD_HEAD_POSITIONS]
 	[BODY_DETAIL_PLAN:HUMANOID_HEAD_POSITIONS]
 	[BODY_SIZE:0:0:8000000]
@@ -31,7 +31,7 @@ creature_illager_golem
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 	[CANNOT_JUMP]
 	[ALL_ACTIVE]
-	[CAN_DO_INTERACTION:MC_SPAWN_PINK_SLIME]
+	[CAN_DO_INTERACTION:SPAWN_MC_PINK_SLIME]
 			[CDI:ADV_NAME:Spawn pink slime]
 			[CDI:VERB:spew out a creature made of pink slime:spews out a creature made of pink slime:NA]
 			[CDI:WAIT_PERIOD:50]
@@ -240,7 +240,7 @@ creature_illager_golem
 				[TL_COLOR_MODIFIER:PURPLE:10:VIOLET:10:INDIGO:8]
 					[TLCM_NOUN:liquid:SINGULAR]
 
-[CREATURE:MC_REDSTONE_CUBE]
+[CREATURE:REDSTONE_CUBE]
     [DESCRIPTION:A cube made of glowing red stone, that rolls about by itself. The knowledge of how to create these animate cubes has been lost to time.]
 	[NAME:redstone cube:redstone cubes:redstone cube]
 	[CASTE_NAME:redstone cube:redstone cubes:redstone cube]
@@ -283,7 +283,7 @@ creature_illager_golem
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[BODY_SIZE:0:0:1000000] 1x1x1 meters
 
-[CREATURE:MC_REDSTONE_GOLEM]
+[CREATURE:REDSTONE_GOLEM]
     [DESCRIPTION:A large magically animated statue of a humanoid, made of stone and redstone. The knowledge of how to create these golems has been lost to time.]
 	[CREATURE_CLASS:GOLEM]
     [NAME:redstone golem:redstone golems:redstone golem]
@@ -360,7 +360,7 @@ creature_illager_golem
 	[ITEMCORPSE:POWDER_MISC:NO_SUBTYPE:INORGANIC:REDSTONE]
 	[SWIMS_LEARNED]
 
-[CREATURE:MC_REDSTONE_MONSTROSITY]
+[CREATURE:REDSTONE_MONSTROSITY]
     [DESCRIPTION:A hulking, magically animated statue in the rough shape of a humanoid, made of stone and redstone. Its stony exterior is covered in cracks, revealing the redstone beneath. The knowledge of how to create these golems has been lost to time.]
 	[CREATURE_CLASS:GOLEM]
     [NAME:redstone monstrosity:redstone monstrosities:redstone monstrosity]
@@ -449,8 +449,8 @@ creature_illager_golem
 	[ITEMCORPSE:POWDER_MISC:NO_SUBTYPE:INORGANIC:REDSTONE]
 	[SWIMS_LEARNED]
 
-[CREATURE:MC_MOOSHROOM_MONSTROSITY]
-	[COPY_TAGS_FROM:MC_REDSTONE_MONSTROSITY]
+[CREATURE:MOOSHROOM_MONSTROSITY]
+	[COPY_TAGS_FROM:REDSTONE_MONSTROSITY]
 	[CV_REMOVE_TAG:DESCRIPTION]
 	[CV_REMOVE_TAG:NAME][CV_REMOVE_TAG:CASTE_NAME]
 	[CV_REMOVE_TAG:CREATURE_TILE][CV_REMOVE_TAG:COLOR]
@@ -515,8 +515,8 @@ creature_illager_golem
 	[APPLY_CREATURE_VARIATION:MOOSHROOM_MONSTROSITY_CASTE:SPORE_TREE:spore tree:TEAL]
 		[CASTE_COLOR:3:0:0]
 
-[CREATURE:MC_OBSIDIAN_MONSTROSITY]
-	[COPY_TAGS_FROM:MC_REDSTONE_MONSTROSITY]
+[CREATURE:OBSIDIAN_MONSTROSITY]
+	[COPY_TAGS_FROM:REDSTONE_MONSTROSITY]
 	[CV_REMOVE_TAG:DESCRIPTION]
 	[CV_REMOVE_TAG:NAME][CV_REMOVE_TAG:CASTE_NAME]
 	[CV_REMOVE_TAG:CREATURE_TILE][CV_REMOVE_TAG:COLOR]

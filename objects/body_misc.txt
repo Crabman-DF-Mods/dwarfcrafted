@@ -2,7 +2,7 @@ body_misc
 
 [OBJECT:BODY]
 
-[BODY:MC_CREEPER_BODY]
+[BODY:CREEPER_BODY]
 	[BP:UB:upper body:upper bodies][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:LB:lower body:lower bodies][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
@@ -30,7 +30,7 @@ body_misc
 	[BP:FUSE:fuse:STP][CONTYPE:LOWERBODY][INTERNAL][SMALL][CATEGORY:FUSE]
 		[DEFAULT_RELSIZE:600]
 
-[BODY:MC_CREEPER_SPIDER_BODY]
+[BODY:CREEPER_SPIDER_BODY]
 	[BP:UB:upper body:upper bodies][UPPERBODY][CATEGORY:BODY_UPPER]
 		[DEFAULT_RELSIZE:1000]
 	[BP:LB:lower body:lower bodies][CON:UB][LOWERBODY][CATEGORY:BODY_LOWER]
@@ -66,14 +66,14 @@ body_misc
 	[BP:FUSE:fuse:STP][CONTYPE:LOWERBODY][INTERNAL][SMALL][CATEGORY:FUSE]
 		[DEFAULT_RELSIZE:600]
 
-[BODY:MC_SLIME_OUTER_LAYER]
+[BODY:SLIME_OUTER_LAYER]
 	[BP:OUTER_LAYER:outer layer:STP][CONTYPE:HEAD][CATEGORY:OUTER_LAYER]
 		[DEFAULT_RELSIZE:1000] TODO update this more rigorously later
 
 In this mod, I'm interpreting the "mouth" of slimes to actually all be sensory organs
-[BODYGLOSS:MC_SLIME_MOUTH:center eye:mouth:center eyes:mouths]
+[BODYGLOSS:SLIME_MOUTH:center eye:mouth:center eyes:mouths]
 
-[BODY:MC_GUARDIAN_SPIKES]
+[BODY:PRISMARINE_GUARDIAN_SPIKES]
 	[BP:SPIKE1:first spike:STP][CONTYPE:HEAD][SMALL][EMBEDDED][SKELETON][CATEGORY:SPIKE]
 		[DEFAULT_RELSIZE:30]
 	[BP:SPIKE2:second spike:STP][CONTYPE:HEAD][SMALL][EMBEDDED][SKELETON][CATEGORY:SPIKE]
@@ -103,14 +103,14 @@ In this mod, I'm interpreting the "mouth" of slimes to actually all be sensory o
 	[BP:ROD:rod:STP][CONTYPE:HEAD][CATEGORY:ROD]
 		[DEFAULT_RELSIZE:100]
 
-[BODYGLOSS:MC_WARDEN_ANTENNAE:antenna:tendril:antennas:tendrils]
+[BODYGLOSS:WARDEN_ANTENNAE:antenna:tendril:antennas:tendrils]
 
-[BODY:MC_WARDEN_CHEST_CAVITY]
+[BODY:WARDEN_CHEST_CAVITY]
 	[BP:CAVITY:chest cavity:STP][CONTYPE:UPPERBODY][APERTURE][EMBEDDED][SMALL][CATEGORY:CAVITY]
 		[DEFAULT_RELSIZE:500]
 
 TODO do something fancier with the connects to make severing impossible
-[BODY:MC_BLAZE_RODS]
+[BODY:BLAZE_RODS]
 	[BP:ROD1:first rod:STP][CONTYPE:LOWERBODY][CATEGORY:ROD][TOTEMABLE]
 		[DEFAULT_RELSIZE:125]
 	[BP:ROD2:second rod:STP][CONTYPE:LOWERBODY][CATEGORY:ROD][TOTEMABLE]
@@ -136,7 +136,7 @@ TODO do something fancier with the connects to make severing impossible
 	[BP:ROD12:twelfth rod:STP][CONTYPE:LOWERBODY][CATEGORY:ROD][TOTEMABLE]
 		[DEFAULT_RELSIZE:125]
 
-[BODY:MC_WILDFIRE]
+[BODY:WILDFIRE]
 	[BP:COL:column:STP][CONTYPE:LOWERBODY][CATEGORY:SHIELD][TOTEMABLE]
 		[DEFAULT_RELSIZE:1250]
 	[BP:SHIELD1:first shield:STP][CONTYPE:LOWERBODY][CATEGORY:SHIELD][TOTEMABLE]
@@ -154,7 +154,7 @@ TODO do something fancier with the connects to make severing impossible
 	[BP:GEM:gem:STP][CON_CAT:HELMET][CATEGORY:GEM][TOTEMABLE][EMBEDDED][SMALL]
 		[DEFAULT_RELSIZE:5]
 
-[BODY:MC_WITHER]
+[BODY:WITHER]
 	[BP:UB:middle spine:middle spines][UPPERBODY][CATEGORY:SPINE][SKELETON]
 		[DEFAULT_RELSIZE:150]
 	doesn't have the LOWERBODY tag, because that would make the wither
@@ -189,7 +189,7 @@ TODO do something fancier with the connects to make severing impossible
 	[BP:R_FLOATING_RIB:right floating rib:STP][CONTYPE:UPPERBODY][CATEGORY:RIB_FLOATING][NUMBER:2][SMALL]
 		[DEFAULT_RELSIZE:20]
 
-[BODY:MC_CAULDRON]
+[BODY:CORRUPTED_CAULDRON]
 	[BP:HD:body:bodies][UPPERBODY][LOWERBODY][HEAD][CATEGORY:HEAD]
 		[DEFAULT_RELSIZE:2000]
 	[BP:RFW:right front wheel:STP][CON:HD][STANCE][RIGHT][CATEGORY:FOOT_FRONT]

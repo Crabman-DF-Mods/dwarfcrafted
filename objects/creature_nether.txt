@@ -5,7 +5,7 @@ creature_nether
 TODO: when multiple dimensions are added/supported, make a Nether dimension,
 and move these guys all there.
 
-[CREATURE:MC_GHAST]
+[CREATURE:GHAST]
     [DESCRIPTION:A gigantic floating monster with a mass of tentacles dangling beneath it, and a hollow body full of gas. It cries constantly, and the tears are prized for their great regenerative potency, but gathering them is dangerous, as it spits forth fiery rocks at anyone it detects, which explode into flames on impact. Its eyes are always closed, opening only to check the aim of its fire.]
 	[NAME:ghast:ghasts:ghast]
 	[CASTE_NAME:ghast:ghasts:ghast]
@@ -67,7 +67,7 @@ and move these guys all there.
         [SYNDROME]
             [SYN_NAME:regeneration]
 			[SYN_AFFECTED_CLASS:GENERAL_POISON]
-			[SYN_AFFECTED_CREATURE:MC_GHAST:ALL]
+			[SYN_AFFECTED_CREATURE:GHAST:ALL]
 			[SYN_INHALED][SYN_INGESTED]
             TODO test and fine tune the sev and durations
             [CE_REDUCE_PAIN:SEV:100:PROB:100:START:0:PEAK:0:END:50:ABRUPT]
@@ -107,7 +107,7 @@ and move these guys all there.
 			[TL_COLOR_MODIFIER:WHITE:1]
 				[TLCM_NOUN:skin:SINGULAR]
 
-[CREATURE:MC_MAGMA_CUBE]
+[CREATURE:MAGMA_CUBE]
     [DESCRIPTION:A moving, rocky cube with a core composed of magma which possesses a creamy consistency. Its rocky crust is divided into many thin segments, which separate like the coils of a spring when it jumps.]
 	[NAME:magma cube:magma cubes:magma cube]
 	[CASTE_NAME:magma cube:magma cubes:magma cube]
@@ -173,14 +173,14 @@ and move these guys all there.
 	[APPLY_CREATURE_VARIATION:STANDARD_SWIMMING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
 	[BODY_SIZE:0:0:8000000] 2x2x2 meters
 
-[CREATURE:MC_BLAZE]
+[CREATURE:BLAZE]
 	[DESCRIPTION:A floating head with a series of solid rods levitating beneath it. It is constantly surrounded by smoke, and can manifest fireballs to fire at whatever it deems an intruder.]
 	[NAME:blaze:blazes:blaze]
 	[CASTE_NAME:blaze:blazes:blaze]
 	[CREATURE_TILE:'b'][COLOR:6:0:1]
 	[GLOWTILE:'b'][GLOWCOLOR:6:0:1]
 	[FLIER]
-	[BODY:BODY_HEAD:2EYES:MC_BLAZE_RODS]
+	[BODY:BODY_HEAD:2EYES:BLAZE_RODS]
 	[BODY_SIZE:0:0:2330] 1330 for the skull, 1000 for the rods
 	[PREFSTRING:rods]
 	[PREFSTRING:raspy breathing]
@@ -258,10 +258,10 @@ and move these guys all there.
 	[APPLY_CREATURE_VARIATION:STANDARD_WALK_CRAWL_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CRAWLING_GAITS:9000:8900:8825:8775:9500:9900] 1 kph
 
-[CREATURE:MC_WILDFIRE] Mob D from 2017 vote
+[CREATURE:WILDFIRE] Mob D from 2017 vote
 	I wish this could have just been a caste of blazes, but the way NAME works with CASTE_NAME
 	just didn't make that acceptable; their names need to be different in all contexts.
-    [COPY_TAGS_FROM:MC_BLAZE]
+    [COPY_TAGS_FROM:BLAZE]
 
 	[CV_REMOVE_TAG:DESCRIPTION]
 	[CV_REMOVE_TAG:NAME]
@@ -298,7 +298,7 @@ and move these guys all there.
 	
 	[GO_TO_TAG:BODY]
 	[CV_REMOVE_TAG:BODY]
-	[BODY:BODY_HEAD:2EYES:MC_WILDFIRE:GEM_HELMET]
+	[BODY:BODY_HEAD:2EYES:WILDFIRE:GEM_HELMET]
 	[BODY_SIZE:0:0:6185] shields = 4000 column = 835
 	[PREFSTRING:shields]
 	[PREFSTRING:bejeweled helmets]
@@ -332,7 +332,7 @@ and move these guys all there.
 	[SELECT_TISSUE_LAYER:BLAZE:BY_CATEGORY:GEM]
 		[SET_LAYER_TISSUE:RUBY]
 
-[CREATURE:MC_STRIDER]
+[CREATURE:STRIDER]
 	[DESCRIPTION:A bipedal, armless creature named for the way it strides across the surface of magma. It is adapted to the extreme temperature of magma, and is severely uncomfortable with any temperatures colder than fire. It has thick hairlike bristles on the sides of its head.]
 	[NAME:strider:striders:strider]
 	[CASTE_NAME:strider:striders:strider]
@@ -433,7 +433,7 @@ and move these guys all there.
 			[TL_COLOR_MODIFIER:BLACK:1]
 				[TLCM_NOUN:eyes:PLURAL]
 
-[CREATURE:MC_WITHER]
+[CREATURE:WITHER]
 	[DESCRIPTION:A monstrous, limbless demon with 3 heads, whose entire skeletal body drips with a toxic slick that causes anything alive to rot and wither away. It it built from countless souls of the dead, and rages against the living, spitting forth skulls to spread its rot.]
 	[NAME:wither:withers:wither]
 	[CASTE_NAME:wither:withers:wither]
@@ -466,7 +466,7 @@ and move these guys all there.
 
 	[ODOR_STRING:death]
 	[SMELL_TRIGGER:10000] cannot smell
-	[BODY:MC_WITHER:2HEAD_HORN:TEETH]
+	[BODY:WITHER:2HEAD_HORN:TEETH]
 	[MULTIPART_FULL_VISION]
 	[LOW_LIGHT_VISION:10000]
 	[RELSIZE:BY_CATEGORY:HORN:10] they're small horns
@@ -513,8 +513,8 @@ and move these guys all there.
 			[CE_NECROSIS:SEV:100:PROB:100:LOCALIZED:RESISTABLE:START:0:PEAK:500:END:4000]
 		[SYNDROME] turns piglins/hoglins undead
 			[SYN_CLASS:RAISED_UNDEAD]
-			[SYN_AFFECTED_CREATURE:MC_PIGLIN:ALL]
-			[SYN_AFFECTED_CREATURE:MC_HOGLIN:ALL]
+			[SYN_AFFECTED_CREATURE:PIGLIN:ALL]
+			[SYN_AFFECTED_CREATURE:HOGLIN:ALL]
 			[SYN_IMMUNE_CLASS:RAISED_UNDEAD] stops it affecting 'glins that are already zombies
 			[SYN_IMMUNE_CLASS:RAISED_GHOST]
 			[SYN_CONTACT][SYN_INHALED][SYN_INGESTED][SYN_INJECTED]
@@ -547,7 +547,7 @@ and move these guys all there.
 		[CDI:TARGET_RANGE:C:30]
 		[CDI:MAX_TARGET_NUMBER:C:1]
 		[CDI:WAIT_PERIOD:40]
-	[CAN_DO_INTERACTION:MC_WITHER_SHIELD]
+	[CAN_DO_INTERACTION:WITHER_SHIELD]
 		[CDI:ADV_NAME:Shield]
 		[CDI:TARGET:A:SELF_ONLY]
 		[CDI:USAGE_HINT:DEFEND]
@@ -572,7 +572,7 @@ and move these guys all there.
 		[MELTING_POINT:10000]
 		[BOILING_POINT:10060]
 
-[CREATURE:MC_WITHER_MAN]
+[CREATURE:WITHER_MAN]
 	[DESCRIPTION:A long since deceased member of an ancient humanoid species native to hell. Its body drips with a toxic slick that causes anything alive to rot and wither away, and it rages against the living.]
 	[NAME:wither skeleton:wither skeletons:wither skeleton]
 	[CASTE_NAME:wither skeleton:wither skeletons:wither skeleton]
@@ -638,7 +638,7 @@ and move these guys all there.
 		[ATTACK_PREPARE_AND_RECOVER:3:3]
 		[ATTACK_PRIORITY:MAIN]
 		[ATTACK_FLAG_CANLATCH]
-	[SECRETION:CREATURE_MAT:MC_WITHER:WITHER:LIQUID:BY_CATEGORY:ALL:ALL:CONTINUOUS]
+	[SECRETION:CREATURE_MAT:WITHER:WITHER:LIQUID:BY_CATEGORY:ALL:ALL:CONTINUOUS]
 	[ALL_ACTIVE]
 	[APPLY_CREATURE_VARIATION:STANDARD_BIPED_GAITS:900:657:438:219:1900:2900] 40 kph
 	[APPLY_CREATURE_VARIATION:STANDARD_CLIMBING_GAITS:2990:2257:1525:731:4300:6100] 12 kph
@@ -652,7 +652,7 @@ and move these guys all there.
 		[IF_EXISTS_SET_MELTING_POINT:13000]
 		[IF_EXISTS_SET_BOILING_POINT:15000]
 
-[CREATURE:MC_HOGLIN]
+[CREATURE:HOGLIN]
 	[DESCRIPTION:A huge monster with a large snout and two large, jagged tusks. It is native to hell and is acclimated to extreme temperatures.]
 	[NAME:hoglin:hoglins:hoglin]
 	[CHILD:1][GENERAL_CHILD_NAME:hoglet:hoglets]
@@ -794,8 +794,8 @@ and move these guys all there.
 			[TL_COLOR_MODIFIER:WHITE:1]
 				[TLCM_NOUN:eyes:PLURAL]
 
-[CREATURE:MC_PIGLIN]
-    [COPY_TAGS_FROM:MC_HOGLIN]
+[CREATURE:PIGLIN]
+    [COPY_TAGS_FROM:HOGLIN]
     [APPLY_CREATURE_VARIATION:ANIMAL_PERSON]
     [CV_REMOVE_TAG:CAN_SPEAK][CV_REMOVE_TAG:SWIMS_INNATE]
     [CV_REMOVE_TAG:MEANDERER][CV_REMOVE_TAG:GRAZER][CV_REMOVE_TAG:STANDARD_GRAZER]

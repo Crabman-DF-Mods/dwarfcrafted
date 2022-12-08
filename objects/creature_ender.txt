@@ -9,7 +9,7 @@ Only endermen (and by extension endermites) will be able to visit other dimensio
 and will be able to go anywhere (via innate plane-walking powers) except
 for dimensions and biomes that are bodies of water.
 
-[CREATURE:MC_ENDERMAN]
+[CREATURE:ENDERMAN]
     The thing about being "unwell" and "flickering" is because proper teleporting
     isn't in the game yet, so I wanted to justify in the lore why they can't teleport.
     [DESCRIPTION:A tall, slender humanoid from another plane of reality, with purple sparks floating around it. Their kind are normally peaceful and curious, but become murderously enraged at anything that looks at their face. It appears to be unwell, and occasionally vanishes before immediately flickering back into view.]
@@ -166,7 +166,7 @@ for dimensions and biomes that are bodies of water.
 		[CDI:TARGET_RANGE:B:1]
 		[CDI:MAX_TARGET_NUMBER:B:1]
 		[CDI:WAIT_PERIOD:20]
-    [CAN_DO_INTERACTION:MC_ENDERMITE_SPAWN]
+    [CAN_DO_INTERACTION:ENDERMITE_SPAWN]
 		[CDI:ADV_NAME:Teleport]
         TODO make the interaction unprompted/be done at random
 		[CDI:VERB:flicker and spark:flickers and sparks:NA]
@@ -284,7 +284,7 @@ for dimensions and biomes that are bodies of water.
         [IF_EXISTS_SET_IGNITE_POINT:10350]
         [IF_EXISTS_SET_MELTING_POINT:10180]
 
-[CREATURE:MC_ENDERMITE]
+[CREATURE:ENDERMITE]
     [DESCRIPTION:A small, parasitic arthropod from another plane of reality.  They cannot survive for long without a host.]
 	[NAME:endermite:endermites:endermite]
 	[CREATURE_TILE:'e'][COLOR:5:0:0]
@@ -323,7 +323,7 @@ for dimensions and biomes that are bodies of water.
     [SELECT_MATERIAL:GUT]
         [SYNDROME]
             [SYN_NAME:a lack of a host]
-			[SYN_AFFECTED_CREATURE:MC_ENDERMITE:ALL]
+			[SYN_AFFECTED_CREATURE:ENDERMITE:ALL]
 			[SYN_CONTACT][SYN_INHALED][SYN_INGESTED][SYN_INJECTED]
 			[CE_NECROSIS:SEV:1:PROB:100:START:0]
 
@@ -349,7 +349,7 @@ for dimensions and biomes that are bodies of water.
     [SELECT_MATERIAL:ICHOR]
 		[MELTING_POINT:0]
 
-[CREATURE:MC_SHULKER]
+[CREATURE:SHULKER]
 	TODO when they actually do so, describe the projectiles like so: "cause anything they touch to uncontrollably levitate upwards"
 	Once again, I'm going to use a weird "it appears to be unwell" excuse for why neither
 	teleportation or homing projectiles (or levitation!) are working.
@@ -410,7 +410,7 @@ for dimensions and biomes that are bodies of water.
 		[CDI:TARGET_RANGE:C:15]
 		[CDI:MAX_TARGET_NUMBER:C:1]
 		[CDI:WAIT_PERIOD:30]
-	[CAN_DO_INTERACTION:MC_ENDERMITE_SPAWN]
+	[CAN_DO_INTERACTION:ENDERMITE_SPAWN]
 		[CDI:ADV_NAME:Teleport]
 		[CDI:USAGE_HINT:DEFEND]
 		[CDI:VERB:flicker and spark:flickers and sparks:NA]
@@ -431,7 +431,7 @@ for dimensions and biomes that are bodies of water.
     [SELECT_MATERIAL:ICHOR]
 		[MELTING_POINT:0]
 
-[CREATURE:MC_ENDERDRAGON]
+[CREATURE:ENDER_DRAGON]
     [DESCRIPTION:A gigantic, flying reptilian creature from another plane of existence.  Its breath, and indeed even its body, are corrosive to all matter not native to its world.]
 	[NAME:ender dragon:ender dragons:draconic]
 	[CASTE_NAME:ender dragon:ender dragons:draconic]
@@ -551,7 +551,7 @@ for dimensions and biomes that are bodies of water.
 	[CASTE:MALE]
 		[MALE]
 	[SELECT_CASTE:ALL]
-	[ITEMCORPSE:EGG:NONE:MC_ENDERDRAGON:FEMALE]
+	[ITEMCORPSE:EGG:NONE:ENDER_DRAGON:FEMALE]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:SCALE]
 			[TL_COLOR_MODIFIER:BLACK:1]
 				[TLCM_NOUN:scales:PLURAL]
